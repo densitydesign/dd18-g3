@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>PLANT FORWARD</title>
+    <link rel="icon" type="image/x-icon" href="Assets/Icons/⏩.ico" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.8.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollToPlugin.min.js"></script>
+  </head>
+
+  <body>
+    <div id="preloader"></div>
+    <!-------------------------- NAVBAR ---------------------------------------------------------------------->
+    <div id="navbar">
+      <a href="" id="titolo">⏩PLANT FORWARD</a>
+      <a href="../index.html#secondpage" class="bottoncini" id="intro">INTRO</a>
+      <a href="../experience.html" class="bottoncini" id="archive">ARCHIVE</a>
+      <a href="../about.html" class="bottoncini" id="about">ABOUT</a>
+    </div>
+
+    <!-------------------------- CONTAINER ---------------------------------------------------------------------->
+
+    <div id="container">
+      <!-------------------------- LANDING PAGE ---------------------------------------------------------------------->
+
+      <div class="pages">
+        <div id="coperchio1"></div>
+        <div class="content" id="firstpage">
+          <div class="wrapper">
+            <div class="item">
+              <i class="fa fa-arrow-up arrow1" aria-hidden="true"></i>
+              <i class="fa fa-arrow-up arrow1" aria-hidden="true"></i>
+              <i class="fa fa-arrow-up arrow1" aria-hidden="true"></i>
+              <i class="scrollup">SCROLL UP</i>
+            </div>
+          </div>
+          <div id="titolone">
+            ⏩ PLANT<br />
+            FORWARD
+          </div>
+
+          <div id="initialanimationcont"></div>
+        </div>
+      </div>
+
+      <!-------------------------- WIKIPEDIA DEFINITION ---------------------------------------------------------------------->
+
+      <div class="pages">
+        <div class="content" id="secondpage">
+          <div id="coperchio2"></div>
+          <div id="wikidef">
+            <div class="atxt">
+              <a id="atxt1">
+                <span style="color: #00c844">Reforestation</span> is the natural
+              </a>
+            </div>
+
+            <div class="atxt">
+              <a id="atxt2"> restocking of existing </a>
+            </div>
+
+            <div class="atxt">
+              <a id="atxt3"> forests and woodlands that </a>
+            </div>
+
+            <div class="atxt">
+              <a id="atxt4"> have been depleted, usually </a>
+            </div>
+
+            <div class="atxt">
+              <a id="atxt5"> through deforestation, but </a>
+            </div>
+
+            <div class="atxt">
+              <a id="atxt6"> also after clearcutting. </a>
+            </div>
+
+            <div
+              class="atxt"
+              style="position: absolute; top: 58vh; right: -2vw"
+            >
+              <a
+                id="atxt7"
+                href="https://en.wikipedia.org/w/index.php?title=Reforestation&oldid=1127005883"
+              >
+                <span style="font-style: italic"
+                  >Reforestation, Wikipedia.</span
+                >
+                (2022, Dec 12)
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-------------------------- HUMAN RELATION ---------------------------------------------------------------------->
+
+      <div class="pages">
+        <div class="content" id="thirdpage">
+          <div id="humanrelation">
+            <div id="human"><div id="htxt0">human</div></div>
+
+            <div class="htxt htxtl">
+              <div class="hhtxt"><div id="htxt1">Reforestation is an</div></div>
+              <div class="hhtxt">
+                <div id="htxt1_1">
+                  inherently <span style="opacity: 0">human</span> activity
+                </div>
+              </div>
+            </div>
+
+            <div class="htxt htxtl">
+              <div class="hhtxt"><div id="htxt2">carried out</div></div>
+              <div class="hhtxt">
+                <div id="htxt2_1">
+                  <span style="position: relative; left: 24.4vw">
+                    by <span style="color: transparent">human</span>s</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="htxt htxtl">
+              <div class="hhtxt"><div id="htxt3">to repair damage</div></div>
+              <div class="hhtxt">
+                <div id="htxt3_1">
+                  <span style="position: relative; left: 3.25vw"
+                    >caused by
+                    <span style="color: transparent">human</span>s</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="htxt htxtl" style="top: 37vh; left: 4.25vw">
+              <div class="hhtxt">
+                <div id="htxt4">
+                  requiring <span style="color: transparent">human</span>
+                </div>
+              </div>
+
+              <div class="hhtxt">
+                <div id="htxt4_1">intervention throughout</div>
+              </div>
+
+              <div class="hhtxt">
+                <div id="htxt4_2">all phases of growth.</div>
+              </div>
+            </div>
+
+            <div class="htxt" style="top: 80vh; right: -2vw">
+              <a
+                href="https://www.eea.europa.eu/publications/european-forest-ecosystems/file"
+                id="htxt5"
+              >
+                EEA Report N°5/2016
+              </a>
+            </div>
+
+            <div class="htxt" style="top: 6vh">
+              <div id="htxt6">
+                Reforestation is an inherently
+                <span style="color: #00c844">humans</span> activity, carried out
+                by <span style="color: #00c844">humans</span>, to repair damage
+                caused by <span style="color: #00c844">humans</span>, requiring
+                <span style="color: #00c844">human</span>
+                intervention throughout all phases of growth.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-------------------------- PHASES ---------------------------------------------------------------------->
+
+      <div class="pages">
+        <div class="content" id="fourthpage">
+          <div id="allphases">all phases of growth.</div>
+
+          <div id="bar"></div>
+          <div id="triangle"></div>
+          <div class="greendot" id="g1"></div>
+          <div class="greendot" id="g2"></div>
+          <div class="greendot" id="g3"></div>
+          <div class="greendot" id="g4"></div>
+          <div class="greendot" id="g5"></div>
+          <div class="greendot" id="g6"></div>
+          <div id="PhaseLabel">
+            <div id="l1" class="l">WASTELAND</div>
+            <div id="l2" class="l">SAPLING</div>
+            <div id="l3" class="l">TREE</div>
+            <div id="l4" class="l">BOSCAGE</div>
+            <div id="l5" class="l">FOREST</div>
+            <div id="l6" class="l">TIMBER</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pages">
+        <div class="content"></div>
+      </div>
+
+      <div class="pages">
+        <div class="content"></div>
+      </div>
+
+      <div class="pages">
+        <div class="content"></div>
+      </div>
+
+      <div class="pages">
+        <div class="content" id="fifthpage">
+          <div id="bar2"></div>
+          <div id="triangle2"></div>
+          <div id="dot2"></div>
+          <div id="label2">TIMBER</div>
+          <div id="phrase2">all phases of growth.</div>
+        </div>
+      </div>
+
+      <div class="pages">
+        <div class="content" id="sixthpage">
+          <div id="gughel">
+            <div class="gtxt">
+              <a id="gtxt1">
+                On<span style="color: #00c844"> Google Images</span>,
+              </a>
+            </div>
+
+            <div class="gtxt">
+              <a id="gtxt2"> we searched for images </a>
+            </div>
+
+            <div class="gtxt">
+              <a id="gtxt3"> representing reforestation </a>
+            </div>
+
+            <div class="gtxt">
+              <a id="gtxt4">
+                and its<span style="color: #00c844"> related terms</span> to
+              </a>
+            </div>
+
+            <div class="gtxt">
+              <a id="gtxt5"> visualise if this aspect would </a>
+            </div>
+
+            <div class="gtxt">
+              <a id="gtxt6"> have cropped up. </a>
+            </div>
+          </div>
+          <div id="gughelfix">
+            On<span style="color: #00c844"> Google Images</span>,<br />
+            we searched for images<br />
+            representing reforestation <br />
+            and its<span style="color: #00c844"> related terms</span> to <br />
+            visualise if this aspect would<br />
+            have cropped up.
+          </div>
+        </div>
+      </div>
+
+      <div class="pages">
+        <div class="content" id="seventhpage">
+          <div
+            class="pallozzibianchistick"
+            id="pbs1"
+            style="left: 8.333vw; top: 7vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistick"
+            id="pbs2"
+            style="left: 8.333vw; top: 82vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistick"
+            id="pbs3"
+            style="left: 24.999vw; top: 52vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistick"
+            id="pbs4"
+            style="left: 41.665vw; top: 91vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistick"
+            id="pbs5"
+            style="left: 58.331vw; top: 96vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistick"
+            id="pbs6"
+            style="left: 58.331vw; top: 79vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistick"
+            id="pbs7"
+            style="left: 58.331vw; top: 12vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistick"
+            id="pbs8"
+            style="left: 74.997vw; top: 23vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistick"
+            id="pbs9"
+            style="left: 74.997vw; top: 72vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistick"
+            id="pbs10"
+            style="left: 91.663vw; top: 2vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistickimg"
+            id="pbsi1"
+            style="left: 8.333vw; top: 7vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistickimg"
+            id="pbsi2"
+            style="left: 8.333vw; top: 82vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistickimg"
+            id="pbsi3"
+            style="left: 24.999vw; top: 52vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistickimg"
+            id="pbsi4"
+            style="left: 41.665vw; top: 91vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistickimg"
+            id="pbsi5"
+            style="left: 58.331vw; top: 96vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistickimg"
+            id="pbsi6"
+            style="left: 58.331vw; top: 79vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistickimg"
+            id="pbsi7"
+            style="left: 58.331vw; top: 12vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistickimg"
+            id="pbsi8"
+            style="left: 74.997vw; top: 23vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistickimg"
+            id="pbsi9"
+            style="left: 74.997vw; top: 72vh"
+          ></div>
+
+          <div
+            class="pallozzibianchistickimg"
+            id="pbsi10"
+            style="left: 91.663vw; top: 2vh"
+          ></div>
+
+          <div
+            class="imgpb"
+            id="imgpb1"
+            style="top: 7vh; left: 8.333vw; transform: translate(-50%, -50%)"
+          ></div>
+
+          <div
+            class="imgpb"
+            id="imgpb2"
+            style="top: 82vh; left: 8.333vw; transform: translate(-50%, -50%)"
+          ></div>
+
+          <div
+            class="imgpb"
+            id="imgpb3"
+            style="top: 52vh; left: 24.999vw; transform: translate(-50%, -50%)"
+          ></div>
+
+          <div
+            class="imgpb"
+            id="imgpb4"
+            style="top: 91vh; left: 41.665vw; transform: translate(-50%, -50%)"
+          ></div>
+
+          <div
+            class="imgpb"
+            id="imgpb5"
+            style="top: 96vh; left: 58.331vw; transform: translate(-50%, -50%)"
+          ></div>
+
+          <div
+            class="imgpb"
+            id="imgpb6"
+            style="top: 79vh; left: 58.331vw; transform: translate(-50%, -50%)"
+          ></div>
+
+          <div
+            class="imgpb"
+            id="imgpb7"
+            style="top: 12vh; left: 58.331vw; transform: translate(-50%, -50%)"
+          ></div>
+
+          <div
+            class="imgpb"
+            id="imgpb8"
+            style="top: 23vh; left: 74.997vw; transform: translate(-50%, -50%)"
+          ></div>
+
+          <div
+            class="imgpb"
+            id="imgpb9"
+            style="top: 72vh; left: 74.997vw; transform: translate(-50%, -50%)"
+          ></div>
+
+          <div
+            class="imgpb"
+            id="imgpb10"
+            style="top: 2vh; left: 91.663vw; transform: translate(-50%, -50%)"
+          ></div>
+        </div>
+      </div>
+
+      <div class="pages">
+        <div class="content" id="eighthpage">
+          <div id="gughel2">
+            On<span style="color: #00c844"> Google Images</span>,<br />
+            we searched for images<br />
+            representing reforestation <br />
+            and its<span style="color: #00c844"> related terms</span> to <br />
+            visualise if this aspect would<br />
+            have cropped up.
+          </div>
+
+          <div
+            class="imgpb2"
+            id="imgpb1x"
+            style="
+              top: -993.8vh;
+              left: 5.333vw;
+              transform: translate(-50%, -50%);
+            "
+          ></div>
+
+          <div
+            class="imgpb2"
+            id="imgpb2x"
+            style="
+              top: -918.8vh;
+              left: 5.333vw;
+              transform: translate(-50%, -50%);
+            "
+          ></div>
+
+          <div
+            class="imgpb2"
+            id="imgpb3x"
+            style="
+              top: -948.8vh;
+              left: 21.999vw;
+              transform: translate(-50%, -50%);
+            "
+          ></div>
+
+          <div
+            class="imgpb2"
+            id="imgpb4x"
+            style="
+              top: -909.8vh;
+              left: 38.665vw;
+              transform: translate(-50%, -50%);
+            "
+          ></div>
+
+          <div
+            class="imgpb2"
+            id="imgpb5x"
+            style="
+              top: -904.8vh;
+              left: 55.331vw;
+              transform: translate(-50%, -50%);
+            "
+          ></div>
+
+          <div
+            class="imgpb2"
+            id="imgpb6x"
+            style="
+              top: -921.8vh;
+              left: 55.331vw;
+              transform: translate(-50%, -50%);
+            "
+          ></div>
+
+          <div
+            class="imgpb2"
+            id="imgpb7x"
+            style="
+              top: -988.8vh;
+              left: 55.331vw;
+              transform: translate(-50%, -50%);
+            "
+          ></div>
+
+          <div
+            class="imgpb2"
+            id="imgpb8x"
+            style="
+              top: -977.8vh;
+              left: 71.997vw;
+              transform: translate(-50%, -50%);
+            "
+          ></div>
+
+          <div
+            class="imgpb2"
+            id="imgpb9x"
+            style="
+              top: -928.8vh;
+              left: 71.997vw;
+              transform: translate(-50%, -50%);
+            "
+          ></div>
+
+          <div
+            class="imgpb2"
+            id="imgpb1x0"
+            style="
+              top: -998.8vh;
+              left: 88.663vw;
+              transform: translate(-50%, -50%);
+            "
+          ></div>
+        </div>
+      </div>
+
+      <div class="pages">
+        <div class="content" id="ninthpage">
+          <a id="buttonarchive" href="../experience.html"
+            >EXPLORE THE ARCHIVE</a
+          >
+        </div>
+      </div>
+
+      <!-------------------------- SCROLLITELLING TRIGGERS & PAGE POSITIONERS ---------------------------------------------------------------------->
+
+      <div class="triggers" id="tshowbar"></div>
+      <div class="triggers" id="tsecondpage"></div>
+      <div class="triggers" id="tthirdpage"></div>
+      <div class="triggers" id="tfourthpage"></div>
+      <div class="triggers" id="tfifthpage"></div>
+      <div class="triggers" id="tsixthpage"></div>
+      <div class="triggers" id="tseventhpage"></div>
+      <div class="triggers" id="teighthpage"></div>
+      <div class="triggers" id="tninthpage"></div>
+      <div class="triggers" id="ttenthpage"></div>
+      <div class="triggers" id="televenthpage"></div>
+      <div class="triggers" id="ttwelvethpage"></div>
+
+      <div class="triggers" id="snapper"></div>
+
+      <!-------------------------- PALLOZZI ---------------------------------------------------------------------->
+    </div>
+
+    <div id="containerpallozzi">
+      <div
+        class="pallozzibianchi"
+        style="top: 430vh; left: 8.333vw; transform: translate(-50%, -50%)"
+      ></div>
+      <div
+        class="pallozzibianchi"
+        style="top: 355vh; left: 8.333vw; transform: translate(-50%, -50%)"
+      ></div>
+      <div
+        class="pallozzibianchi"
+        style="top: 400vh; left: 24.999vw; transform: translate(-50%, -50%)"
+      ></div>
+      <div
+        class="pallozzibianchi"
+        style="top: 439vh; left: 41.665vw; transform: translate(-50%, -50%)"
+      ></div>
+      <div
+        class="pallozzibianchi"
+        style="top: 444vh; left: 58.331vw; transform: translate(-50%, -50%)"
+      ></div>
+
+      <div
+        class="pallozzibianchi"
+        style="top: 360vh; left: 58.331vw; transform: translate(-50%, -50%)"
+      ></div>
+      <div
+        class="pallozzibianchi"
+        style="top: 427vh; left: 58.331vw; transform: translate(-50%, -50%)"
+      ></div>
+      <div
+        class="pallozzibianchi"
+        style="top: 371vh; left: 74.997vw; transform: translate(-50%, -50%)"
+      ></div>
+      <div
+        class="pallozzibianchi"
+        style="top: 420vh; left: 74.997vw; transform: translate(-50%, -50%)"
+      ></div>
+      <div
+        class="pallozzibianchi"
+        style="top: 350vh; left: 91.663vw; transform: translate(-50%, -50%)"
+      ></div>
+
+      <!--pallozzi normal-->
+      <div
+        class="pallozzi"
+        id="p1"
+        style="top: 1787vh; left: 19.4607586323991vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p2"
+        style="top: 1777vh; left: 58.5553051302098vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p3"
+        style="top: 1750vh; left: 55.8372482482277vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p4"
+        style="top: 1770vh; left: 32.7455621803775vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p5"
+        style="top: 1680vh; left: 37.9228779250536vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p6"
+        style="top: 1675vh; left: 23.0905466925803vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p7"
+        style="top: 1668vh; left: 66.0294972460246vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p8"
+        style="top: 1660vh; left: 69.6808372067325vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p9"
+        style="top: 1624.72680883873vh; left: 52.3241168234547vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p10"
+        style="top: 1610.20402724303vh; left: 48.7439408764499vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p11"
+        style="top: 1580.29322711065vh; left: 4.9318618020142vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p12"
+        style="top: 1534.95803957462vh; left: 36.6599944029275vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p13"
+        style="top: 1626.78643483896vh; left: 31.3065676271194vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p14"
+        style="top: 1590vh; left: 92.3125598444108vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p15"
+        style="top: 1634.58722972038vh; left: 64.94737881013vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p16"
+        style="top: 1480.69238890663vh; left: 27.0536357596263vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p17"
+        style="top: 1474.93289009905vh; left: 63.1621084762278vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p18"
+        style="top: 1363.96755938481vh; left: 87.4475950528465vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p19"
+        style="top: 1365.32720133762vh; left: 16.3961712557365vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p20"
+        style="top: 1366.35513450572vh; left: 96.833640834598vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p21"
+        style="top: 1355.44635140775vh; left: 70.0387952380122vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p22"
+        style="top: 1490.30239009502vh; left: 47.812418799142vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p23"
+        style="top: 1282.22333864656vh; left: 19.6486521081719vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p24"
+        style="top: 1219.6997996772vh; left: 65.1894294419194vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p25"
+        style="top: 1304.35265626438vh; left: 77.4492349839756vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p26"
+        style="top: 1321.29080524585vh; left: 64.0300127538097vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p27"
+        style="top: 1205vh; left: 57.5240565965954vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p28"
+        style="top: 1230vh; left: 51.841109270033vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p29"
+        style="top: 1320.35017903339vh; left: 0.567699350955619vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p30"
+        style="top: 1326.56775375602vh; left: 73.5222209551456vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p31"
+        style="top: 1071.264651145vh; left: 25.0676869468622vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p32"
+        style="top: 1082.89650132238vh; left: 78.8026802698875vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p33"
+        style="top: 1065vh; left: 63.5726937323423vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p34"
+        style="top: 1097.86145584335vh; left: 80.1389909013125vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p35"
+        style="top: 1079.51978194344vh; left: 67.0431569776821vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p36"
+        style="top: 1060; left: 87.0733397660734vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p37"
+        style="top: 967.688035693221vh; left: 22.1708558045515vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p38"
+        style="top: 1042.05574459979vh; left: 60.1174884495233vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p39"
+        style="top: 955.245941604285vh; left: 28.7936933523955vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p40"
+        style="top: 957.014589420153vh; left: 50.7815184450473vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p41"
+        style="top: 948.859795376019vh; left: 4vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p42"
+        style="top: 981.847810077679vh; left: 5vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p43"
+        style="top: 1004.81173586302vh; left: 30.7086027022932vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p44"
+        style="top: 866.088293383415vh; left: 60.4945766541191vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p45"
+        style="top: 843.604088135693vh; left: 7vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p46"
+        style="top: 752.299272143539vh; left: 66.5753778410872vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p47"
+        style="top: 774.881897958894vh; left: 83.5794851912362vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p48"
+        style="top: 873.990803778218vh; left: 18.3945357432673vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p49"
+        style="top: 864.368511000958vh; left: 15.0458274662564vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p50"
+        style="top: 865.726210855036vh; left: 23.2954873377147vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p51"
+        style="top: 669.790132568122vh; left: 40.2300028821708vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p52"
+        style="top: 666.065427263597vh; left: 65.5148011508311vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p53"
+        style="top: 638.685561720106vh; left: 28.3714253271076vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p54"
+        style="top: 743.918839725746vh; left: 24.5434596492715vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p55"
+        style="top: 736.315696311886vh; left: 40.256360071077vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p56"
+        style="top: 620.198209236017vh; left: 12.8767647375804vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p57"
+        style="top: 711.419649152777vh; left: 82.3516114195092vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p58"
+        style="top: 450.936841868493vh; left: 25.7614196712238vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p59"
+        style="top: 579.068972257418vh; left: 23.6228935840494vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p60"
+        style="top: 590vh; left: 32.8280386146956vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p61"
+        style="top: 522.419543151843vh; left: 88.9225544842042vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p62"
+        style="top: 489.101700742612vh; left: 66.1233250045054vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p63"
+        style="top: 501.077742252984vh; left: 80.0185913716595vw"
+      ></div>
+      <div
+        class="pallozzi"
+        id="p64"
+        style="top: 525vh; left: 65.8682844350835vw"
+      ></div>
+    </div>
+
+    <!-------------------------- SCRIPT ---------------------------------------------------------------------->
+
+    <script src="p5sketch.js"></script>
+    <script src="scrollanimations.js"></script>
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
+      });
+    </script>
+  </body>
+</html>

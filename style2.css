@@ -1,0 +1,723 @@
+/* -- ---- -- ---- -- ---- -- FONTS -- ---- -- ---- -- ---- -- */
+
+@font-face {
+  font-family: tiny;
+  src: url("Assets/Fonts/TINY5x3-160.woff2");
+}
+
+@font-face {
+  font-family: whyte;
+  src: url("Assets/Fonts/Whyte\ Regular\ Italic.otf");
+  font-weight: italic;
+}
+
+@font-face {
+  font-family: whyte;
+  src: url("Assets/Fonts/ABCWhyte-Regular.woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: whyte;
+  src: url("Assets/Fonts/Whyte\ Bold.otf");
+  font-weight: bold;
+}
+
+/* -- ---- -- ---- -- ---- -- GENERAL -- ---- -- ---- -- ---- -- */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+  background-color: #ffffff;
+  overflow: hidden;
+  cursor: url(Assets/cursor.svg), auto;
+}
+
+html:hover {
+  cursor: url(Assets/cursor.svg), auto;
+}
+
+html:any-link {
+  cursor: url(Assets/cursor.svg), auto;
+}
+
+#preloader {
+  background: #fbfbfb url("assets/Icons/loader.gif") no-repeat center center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+/* -- ---- -- ---- -- ---- -- NAVBAR -- ---- -- ---- -- ---- -- */
+
+#navbar {
+  height: 100vh;
+  width: 3vw;
+  position: fixed;
+  background-color: #00c844;
+  left: 0vw;
+  top: 0vh;
+}
+
+#titolo {
+  font-family: tiny;
+  color: #ffffff;
+  -webkit-text-stroke: #3e3e3e 0.08vw;
+  font-size: 3vw;
+  position: absolute;
+  transform-origin: top left;
+  width: 40vh;
+  rotate: 270deg;
+  left: 0.45vw;
+  height: 2vw;
+  bottom: -2vh;
+  text-decoration: none;
+}
+
+.bottoncini {
+  font-family: whyte;
+  position: absolute;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 1.7vw;
+  transform-origin: top left;
+  left: 0.4vw;
+  rotate: 270deg;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+#intro {
+  top: 15vw;
+  transition-duration: 0.2s;
+}
+
+#intro:hover {
+  color: #3e3e3e;
+  cursor: url(Assets/cursor.svg), auto;
+}
+
+#about {
+  top: 8vw;
+  transition-duration: 0.2s;
+}
+
+#about:hover {
+  color: #3e3e3e;
+  cursor: url(Assets/cursor.svg), auto;
+}
+
+#tutorial {
+  top: 25.3vw;
+  font-size: 1.7vw;
+}
+
+#tutorial:hover {
+  color: #3e3e3e;
+  cursor: url(Assets/cursor.svg), auto;
+}
+
+/* -- ---- -- ---- -- ---- -- EXPERIENCE ENVIRONMENT -- ---- -- ---- -- ---- -- */
+
+#map {
+  position: absolute;
+  left: 3vw;
+  width: 38vw;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 3;
+}
+
+#toggles {
+  position: absolute;
+  right: 0vw;
+  width: 3vw;
+  height: 100vh;
+  font-family: whyte;
+  position: absolute;
+  font-weight: normal;
+  font-size: 1.7vw;
+  transition-duration: 0.2s;
+  background-color: #00c844;
+  color: #ffffff;
+}
+
+.marquee {
+  position: absolute;
+  left: 41vw;
+  rotate: 270deg;
+  transform-origin: top left;
+  height: 1.5vw;
+  width: 18.5vh;
+  display: flex;
+  justify-content: space-around;
+  color: #00c844;
+  font-family: whyte;
+  align-items: center;
+  font-size: 1vw;
+  background-color: #ffffff;
+  border-top: #00c844 solid 0.1vw;
+  border-bottom: #00c844 solid 0.1vw;
+}
+
+#env {
+  position: absolute;
+  right: 3vw;
+  width: 54.3vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#env video {
+  height: 100%;
+}
+
+#galleryenv {
+  position: absolute;
+  right: 3vw;
+  width: 94vw;
+  height: 100vh;
+  display: none;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  overflow: auto;
+  overflow-x: clip;
+}
+
+#galleryenv div img {
+  padding-top: 2vh;
+}
+
+#scroller {
+  position: absolute;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: auto;
+  overflow-x: clip;
+  right: 3vw;
+  width: 94vw;
+  height: 100vh;
+  overflow: scroll;
+  opacity: 0;
+  z-index: 1;
+}
+
+#scrollerhuman {
+  position: absolute;
+  display: none;
+  flex-direction: column-reverse;
+  overflow: auto;
+  overflow-x: clip;
+  right: 3vw;
+  width: 94vw;
+  height: 100vh;
+  overflow: scroll;
+  opacity: 1;
+  z-index: 1;
+}
+
+/* -- ---- -- ---- -- ---- -- MARQUEE -- ---- -- ---- -- ---- -- */
+
+.time {
+  position: relative;
+  left: -16vh;
+}
+
+.mqc {
+  overflow: hidden;
+  width: 90%;
+  text-align: center;
+}
+
+/* -- ---- -- ---- -- ---- -- MAP -- ---- -- ---- -- ---- -- */
+
+.dots {
+  position: absolute;
+  background-color: #ffffff;
+  width: 0.4vw;
+  height: 0.4vw;
+  border-radius: 1vw;
+  border: #00c844 solid 0.13vw;
+  transition-duration: 0.5s;
+}
+
+.human {
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 1vw;
+  width: 0.3vw;
+  height: 0.3vw;
+  border: #00c844 solid 0.2vw;
+  transition-duration: 0.5s;
+}
+
+#cursor {
+  position: absolute;
+  width: 42vw;
+  height: 0.3vh;
+  background-color: #00c844;
+  top: 97.7183753746245vh;
+}
+
+#gcursor1 {
+  position: absolute;
+  width: 42vw;
+  height: 0.3vh;
+  background-color: #00c844;
+  top: 97.7183753746245vh;
+  display: none;
+}
+
+#gcursor2 {
+  position: absolute;
+  width: 42vw;
+  height: 0.3vh;
+  background-color: #00c844;
+  top: 97.7183753746245vh;
+  display: none;
+}
+
+#line1 {
+  position: absolute;
+  width: 42vw;
+  height: 0.1vw;
+  background: repeating-linear-gradient(90deg, #00c844 0 0.3vw, #0000 0 0.8vw);
+  opacity: 0.5;
+  top: 81.45170871vh;
+}
+
+#line2 {
+  position: absolute;
+  width: 42vw;
+  height: 0.1vw;
+  background: repeating-linear-gradient(90deg, #00c844 0 0.3vw, #0000 0 0.8vw);
+  opacity: 0.5;
+  top: 65.28504204vh;
+}
+
+#line3 {
+  position: absolute;
+  width: 42vw;
+  height: 0.1vw;
+  background: repeating-linear-gradient(90deg, #00c844 0 0.3vw, #0000 0 0.8vw);
+  opacity: 0.5;
+  top: 49.11837537vh;
+}
+
+#line4 {
+  position: absolute;
+  width: 42vw;
+  height: 0.1vw;
+  background: repeating-linear-gradient(90deg, #00c844 0 0.3vw, #0000 0 0.8vw);
+  opacity: 0.5;
+  top: 32.98400974vh;
+}
+
+#line5 {
+  position: absolute;
+  width: 42vw;
+  height: 0.1vw;
+  background: repeating-linear-gradient(90deg, #00c844 0 0.3vw, #0000 0 0.8vw);
+  opacity: 0.5;
+  top: 16.72986111vh;
+}
+
+.bigdot {
+  background-color: #00c844;
+  width: 1vw;
+  height: 1vw;
+  transform: translate(-0.3vw, -0.3vw);
+}
+
+.greendot {
+  background-color: #00c844;
+  width: 0.6vw;
+  height: 0.6vw;
+  transform: translate(-0.1vw, -0.1vw);
+}
+
+.viewer {
+  position: absolute;
+  background-color: #00c844;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 3vw;
+  top: 95.2183753746245vh;
+  left: 34.5vw;
+  background-size: cover;
+  z-index: 2;
+}
+
+#dxtriangle {
+  position: absolute;
+  top: 96.96837537vh;
+  left: 37.5vw;
+  width: 0;
+  height: 0;
+  border-top: 0.5vw solid transparent;
+  border-bottom: 0.5vw solid transparent;
+
+  border-right: 0.5vw solid #00c844;
+}
+
+#sxtriangle {
+  position: absolute;
+  top: 96.96837537vh;
+  left: 0vw;
+  width: 0;
+  height: 0;
+  border-top: 0.5vw solid transparent;
+  border-bottom: 0.5vw solid transparent;
+
+  border-left: 0.5vw solid #00c844;
+}
+
+/* -- ---- -- ---- -- ---- -- TOGGLE -- ---- -- ---- -- ---- -- */
+
+#source1 {
+  position: absolute;
+  top: 100vh;
+  rotate: 270deg;
+  transform-origin: top left;
+  left: 0vw;
+  width: 33.3vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  vertical-align: middle;
+  height: 3vw;
+  opacity: 1;
+  background-color: #00c844;
+}
+#sourcemenu {
+  position: absolute;
+  top: 100vh;
+  rotate: 270deg;
+  transform-origin: top left;
+  left: 0vw;
+  width: 33.3vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  vertical-align: middle;
+  height: 3vw;
+  opacity: 0;
+  background-color: #00c844;
+  transition-duration: 0.2s;
+}
+#sourcemenu div {
+  font-size: 1vw;
+}
+#sourcemenu:hover {
+  cursor: url(Assets/cursor.svg), auto;
+  opacity: 1;
+}
+#s1 {
+  background-color: #ffffff;
+  color: #00c844;
+}
+#s2 {
+  background-color: #ffffff;
+  color: #00c844;
+}
+#s1:hover {
+  background-color: #00c844;
+  color: #ffffff;
+  cursor: url(Assets/cursor.svg), auto;
+}
+#s2:hover {
+  background-color: #00c844;
+  color: #ffffff;
+  cursor: url(Assets/cursor.svg), auto;
+}
+
+#view1 {
+  position: absolute;
+  top: 33.3vh;
+  rotate: 270deg;
+  transform-origin: top left;
+  left: 0vw;
+  width: 33.3vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  vertical-align: middle;
+  height: 3vw;
+  border-left: #ffffff solid 0.1vw;
+  opacity: 1;
+  background-color: #00c844;
+}
+#viewmenu {
+  position: absolute;
+  top: 33.3vh;
+  rotate: 270deg;
+  transform-origin: top left;
+  left: 0vw;
+  width: 33.3vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  vertical-align: middle;
+  height: 3vw;
+  border-left: #ffffff solid 0.1vw;
+  opacity: 0;
+  background-color: #00c844;
+  transition-duration: 0.2s;
+}
+#viewmenu div {
+  font-size: 1vw;
+}
+#viewmenu:hover {
+  cursor: url(Assets/cursor.svg), auto;
+  opacity: 1;
+}
+#v1 {
+  background-color: #ffffff;
+  color: #00c844;
+  cursor: url(Assets/cursor.svg), auto;
+}
+#v2 {
+  background-color: #ffffff;
+  color: #00c844;
+  cursor: url(Assets/cursor.svg), auto;
+}
+#v1:hover {
+  background-color: #00c844;
+  color: #ffffff;
+  cursor: url(Assets/cursor.svg), auto;
+}
+#v2:hover {
+  background-color: #00c844;
+  color: #ffffff;
+  cursor: url(Assets/cursor.svg), auto;
+}
+
+#humant1 {
+  position: absolute;
+  top: 66.6vh;
+  rotate: 270deg;
+  transform-origin: top left;
+  left: 0vw;
+  width: 33.3vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  vertical-align: middle;
+  height: 3vw;
+  border-left: #ffffff solid 0.1vw;
+  opacity: 1;
+  background-color: #00c844;
+}
+#humantmenu {
+  position: absolute;
+  top: 66.6vh;
+  rotate: 270deg;
+  transform-origin: top left;
+  left: 0vw;
+  width: 33.3vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  vertical-align: middle;
+  height: 3vw;
+  border-right: #ffffff solid 0.1vw;
+  opacity: 0;
+  background-color: #00c844;
+  transition-duration: 0.2s;
+}
+#humantmenu div {
+  font-size: 1vw;
+}
+#humantmenu:hover {
+  opacity: 1;
+  cursor: url(Assets/cursor.svg), auto;
+}
+#h1 {
+  background-color: #ffffff;
+  color: #00c844;
+  cursor: url(Assets/cursor.svg), auto;
+}
+#h2 {
+  background-color: #ffffff;
+  color: #00c844;
+  cursor: url(Assets/cursor.svg), auto;
+}
+#h1:hover {
+  background-color: #00c844;
+  color: #ffffff;
+  cursor: url(Assets/cursor.svg), auto;
+}
+#h2:hover {
+  background-color: #00c844;
+  color: #ffffff;
+  cursor: url(Assets/cursor.svg), auto;
+}
+
+#zoom {
+  position: absolute;
+  top: 100vh;
+  rotate: 270deg;
+  transform-origin: top left;
+  left: 0vw;
+  width: 33.3vh;
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  vertical-align: middle;
+  height: 3vw;
+  opacity: 1;
+  background-color: #00c844;
+}
+#zoommenu {
+  position: absolute;
+  top: 100vh;
+  rotate: 270deg;
+  transform-origin: top left;
+  left: 0vw;
+  width: 33.3vh;
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  vertical-align: middle;
+  height: 3vw;
+  opacity: 0;
+  background-color: #00c844;
+  transition-duration: 0.2s;
+}
+#zoommenu div {
+  font-size: 1vw;
+}
+#zoommenu:hover {
+  opacity: 1;
+  cursor: url(Assets/cursor.svg), auto;
+}
+#z1 {
+  background-color: #ffffff;
+  color: #00c844;
+  display: none;
+  cursor: url(Assets/cursor.svg), auto;
+}
+#z2 {
+  background-color: #ffffff;
+  color: #00c844;
+  display: none;
+  cursor: url(Assets/cursor.svg), auto;
+}
+#z1:hover {
+  background-color: #00c844;
+  color: #ffffff;
+  cursor: url(Assets/cursor.svg), auto;
+}
+#z2:hover {
+  background-color: #00c844;
+  color: #ffffff;
+  cursor: url(Assets/cursor.svg), auto;
+}
+
+/* -- ---- -- ---- -- ---- -- GALLERY -- ---- -- ---- -- ---- -- */
+
+.images {
+  position: relative;
+  height: 10vh;
+}
+
+/* -- ---- -- ---- -- ---- -- SOURCES -- ---- -- ---- -- ---- -- */
+
+.source {
+  color: #ffffff;
+  position: absolute;
+  height: 1vw;
+  top: 98vh;
+  width: 30vh;
+  transform-origin: top left;
+  rotate: 270deg;
+  right: -13vw;
+  font-family: whyte;
+  font-size: 1.7vw;
+  font-style: italic;
+  text-decoration: none;
+  z-index: 20;
+}
+
+.hide {
+  display: none;
+}
+
+/* -- ---- -- ---- -- ---- -- TRIGGERS -- ---- -- ---- -- ---- -- */
+
+.trigger {
+  opacity: 1;
+  border: rebeccapurple solid 1px;
+}
+
+/* -- ---- -- ---- -- ---- -- TUTORIAL -- ---- -- ---- -- ---- -- */
+
+.gif1 {
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  position: relative;
+  top: 7vh;
+  background: url("Assets/gif1.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: #00c844 solid 0.1vw;
+  background-position: center;
+}
+
+.gif2 {
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  position: relative;
+  top: 7vh;
+  background: url("Assets/gif2.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: #00c844 solid 0.1vw;
+}
+
+.gif3 {
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  position: relative;
+  top: 7vh;
+  background: url("Assets/gif3.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: #00c844 solid 0.1vw;
+}
+
+.gif4 {
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  position: relative;
+  top: 7vh;
+  background: url("Assets/gif4.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: #00c844 solid 0.1vw;
+}
