@@ -4837,6 +4837,7 @@ let sources = [
 ];
 
 let prova;
+let prova2;
 let loaded = false;
 let human = false;
 
@@ -4853,6 +4854,52 @@ const morph2 = document.getElementById("onlyhumans");
 morph2.onloadedmetadata = function () {
   loaded = true;
 };
+
+for (let i = 0; i < 232; i++) {
+  gsap.from("#cursor", {
+    scrollTrigger: {
+      scroller: "#scroller",
+      trigger: htriggers[i],
+      markers: false,
+      start: "top top",
+      end: "bottom top",
+      toggleActions: "none none restart none",
+      scrub: true,
+      //onEnter: () => //console.log("entrato", i),
+      //onLeave: () => //console.log("uscito", i),
+      //onEnterBack: () => //console.log("rientrato"),
+      //onLeaveBack: () => //console.log("riuscito"),
+      onUpdate: (self) => {
+        //console.log(i + "," + self.progress);
+        prova2 = i + (1 - self.progress);
+        //console.log("p: " + prova);
+
+        if (loaded == true) {
+          morph2.currentTime = prova2 - 1;
+          //console.log("ct: " + morph1.currentTime);
+        }
+
+        for (let j = 0; j < 232; j++) {
+          if (j != i) {
+            var element = document.getElementById(hobj[j]);
+            element.classList.remove("bigdot");
+            element.classList.remove("greendot");
+          } else {
+            if (human == true) {
+              var element = document.getElementById(hobj[i]);
+              element.classList.add("bigdot");
+              element.classList.remove("greendot");
+
+              var x = document.getElementById(sources[j]);
+              x.classList.remove("hide");
+            }
+          }
+        }
+      },
+    },
+    ease: "none",
+  });
+}
 
 for (let i = 0; i < 587; i++) {
   gsap.from("#cursor", {
@@ -4954,49 +5001,6 @@ for (let i = 0; i < 587; i++) {
       //onLeaveBack: () => console.log("riuscito"),
     },
     top: tpositions[i],
-    ease: "none",
-  });
-}
-
-for (let i = 0; i < 232; i++) {
-  gsap.from("#cursor", {
-    scrollTrigger: {
-      scroller: "#scroller",
-      trigger: htriggers[i],
-      markers: false,
-      start: "top top",
-      end: "bottom top",
-      toggleActions: "none none restart none",
-      scrub: true,
-      //onEnter: () => //console.log("entrato", i),
-      //onLeave: () => //console.log("uscito", i),
-      //onEnterBack: () => //console.log("rientrato"),
-      //onLeaveBack: () => //console.log("riuscito"),
-      onUpdate: (self) => {
-        //console.log(i + "," + self.progress);
-        prova = i + (1 - self.progress);
-        //console.log("p: " + prova);
-
-        if (loaded == true) {
-          morph2.currentTime = prova - 1;
-          //console.log("ct: " + morph1.currentTime);
-        }
-
-        for (let j = 0; j < 232; j++) {
-          if (j != i) {
-            var element = document.getElementById(hobj[j]);
-            element.classList.remove("bigdot");
-            element.classList.remove("greendot");
-          } else {
-            if (human == true) {
-              var element = document.getElementById(hobj[i]);
-              element.classList.add("bigdot");
-              element.classList.remove("greendot");
-            }
-          }
-        }
-      },
-    },
     ease: "none",
   });
 }

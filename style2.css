@@ -162,6 +162,7 @@ html:any-link {
   background-color: #ffffff;
   border-top: #00c844 solid 0.1vw;
   border-bottom: #00c844 solid 0.1vw;
+  white-space: nowrap;
 }
 
 #env {
