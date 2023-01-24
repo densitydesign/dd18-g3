@@ -6,7 +6,7 @@ let x;
 let initialanimation = function (ia) {
   ia.preload = function () {
     for (let i = 0; i < 180; i++) {
-      img[i] = ia.loadImage("./Assets/initialanim/" + i + ".png");
+      img[i] = ia.loadImage("Assets/initialanim/" + i + ".png");
     }
   };
 
