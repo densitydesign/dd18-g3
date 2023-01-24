@@ -33,7 +33,6 @@ body {
   overflow: hidden;
   overscroll-behavior: none;
   background-color: #ffffff;
-  cursor: url(Assets/cursor1.svg), auto;
 }
 
 .triggers {
@@ -325,7 +324,6 @@ body {
 
 #intro:hover {
   color: #ffffff;
-  cursor: url(Assets/cursor.svg), auto;
 }
 
 #about {
@@ -335,7 +333,6 @@ body {
 
 #about:hover {
   color: #ffffff;
-  cursor: url(Assets/cursor.svg), auto;
 }
 
 #archive {
@@ -345,7 +342,6 @@ body {
 
 #archive:hover {
   color: #ffffff;
-  cursor: url(Assets/cursor.svg), auto;
 }
 /* -- ---- -- ---- -- ---- -- SCROLLITELLING -- ---- -- ---- -- ---- -- */
 
@@ -353,6 +349,7 @@ body {
   position: absolute;
   display: flex;
   flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
   overflow: auto;
   overflow-x: clip;
   height: 100vh;
@@ -875,7 +872,6 @@ body {
 
 #buttonarchive:hover {
   color: #ffffff;
-  cursor: url(Assets/cursor.svg), auto;
 }
 
 /* -- ---- -- ---- -- ---- -- TRIGGERS -- ---- -- ---- -- ---- -- */

@@ -32,19 +32,10 @@ body {
   overscroll-behavior: none;
   background-color: #ffffff;
   overflow: hidden;
-  cursor: url(Assets/cursor.svg), auto;
-}
-
-html:hover {
-  cursor: url(Assets/cursor.svg), auto;
-}
-
-html:any-link {
-  cursor: url(Assets/cursor.svg), auto;
 }
 
 #preloader {
-  background: #fbfbfb url("assets/Icons/loader.gif") no-repeat center center;
+  background: #fbfbfb url("Assets/Icons/loader.gif") no-repeat center center;
   height: 100vh;
   width: 100%;
   position: fixed;
@@ -97,7 +88,6 @@ html:any-link {
 
 #intro:hover {
   color: #3e3e3e;
-  cursor: url(Assets/cursor.svg), auto;
 }
 
 #about {
@@ -107,7 +97,6 @@ html:any-link {
 
 #about:hover {
   color: #ffffff;
-  cursor: url(Assets/cursor.svg), auto;
 }
 
 #tutorial {
@@ -117,7 +106,6 @@ html:any-link {
 
 #tutorial:hover {
   color: #ffffff;
-  cursor: url(Assets/cursor.svg), auto;
 }
 
 /* -- ---- -- ---- -- ---- -- EXPERIENCE ENVIRONMENT -- ---- -- ---- -- ---- -- */
@@ -128,7 +116,7 @@ html:any-link {
   width: 38vw;
   height: 100vh;
   overflow: hidden;
-  pointer-events: none;
+  /* pointer-events: none; */
   z-index: 3;
 }
 
@@ -206,11 +194,11 @@ html:any-link {
   overflow: auto;
   overflow-x: clip;
   right: 3vw;
-  width: 94vw;
+  width: 53vw;
   height: 100vh;
   overflow: scroll;
   opacity: 0;
-  z-index: 1;
+  z-index: 4;
 }
 
 #scrollerhuman {
@@ -250,6 +238,7 @@ html:any-link {
   border-radius: 1vw;
   border: #00c844 solid 0.13vw;
   transition-duration: 0.5s;
+  z-index: 30;
 }
 
 .human {
@@ -260,6 +249,7 @@ html:any-link {
   height: 0.3vw;
   border: #00c844 solid 0.2vw;
   transition-duration: 0.5s;
+  z-index: 30;
 }
 
 #cursor {
@@ -385,89 +375,13 @@ html:any-link {
 
 /* -- ---- -- ---- -- ---- -- TOGGLE -- ---- -- ---- -- ---- -- */
 
-#source1 {
-  position: absolute;
-  top: 100vh;
-  rotate: 270deg;
-  transform-origin: top left;
-  left: 0vw;
-  width: 33.3vh;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  vertical-align: middle;
-  height: 3vw;
-  opacity: 1;
-  background-color: #00c844;
-}
-#sourcemenu {
-  position: absolute;
-  top: 100vh;
-  rotate: 270deg;
-  transform-origin: top left;
-  left: 0vw;
-  width: 33.3vh;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  vertical-align: middle;
-  height: 3vw;
-  opacity: 0;
-  background-color: #00c844;
-  transition-duration: 0.2s;
-}
-#sourcemenu div {
-  font-size: 1vw;
-}
-#sourcemenu:hover {
-  cursor: url(Assets/cursor.svg), auto;
-  opacity: 1;
-}
-#s1 {
-  background-color: #ffffff;
-  color: #00c844;
-}
-#s2 {
-  background-color: #ffffff;
-  color: #00c844;
-}
-#s1:hover {
-  background-color: #00c844;
-  color: #ffffff;
-  cursor: url(Assets/cursor.svg), auto;
-}
-#s2:hover {
-  background-color: #00c844;
-  color: #ffffff;
-  cursor: url(Assets/cursor.svg), auto;
-}
-
-#view1 {
-  position: absolute;
-  top: 33.3vh;
-  rotate: 270deg;
-  transform-origin: top left;
-  left: 0vw;
-  width: 33.3vh;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  vertical-align: middle;
-  height: 3vw;
-  border-left: #ffffff solid 0.1vw;
-  opacity: 1;
-  background-color: #00c844;
-}
 #viewmenu {
   position: absolute;
-  top: 33.3vh;
+  bottom: -5vh;
   rotate: 270deg;
   transform-origin: top left;
   left: 0vw;
-  width: 33.3vh;
+  width: 50vh;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -475,7 +389,6 @@ html:any-link {
   vertical-align: middle;
   height: 3vw;
   border-left: #ffffff solid 0.1vw;
-  opacity: 0;
   background-color: #00c844;
   transition-duration: 0.2s;
 }
@@ -483,54 +396,61 @@ html:any-link {
   font-size: 1vw;
 }
 #viewmenu:hover {
-  cursor: url(Assets/cursor.svg), auto;
   opacity: 1;
 }
 #v1 {
-  background-color: #ffffff;
-  color: #00c844;
-  cursor: url(Assets/cursor.svg), auto;
+  background-color: #00c844;
+  color: #ffffff;
 }
 #v2 {
   background-color: #ffffff;
   color: #00c844;
-  cursor: url(Assets/cursor.svg), auto;
-}
-#v1:hover {
-  background-color: #00c844;
-  color: #ffffff;
-  cursor: url(Assets/cursor.svg), auto;
 }
 #v2:hover {
   background-color: #00c844;
   color: #ffffff;
-  cursor: url(Assets/cursor.svg), auto;
 }
 
-#humant1 {
+#viewmenu2 {
   position: absolute;
-  top: 66.6vh;
+  bottom: -5vh;
   rotate: 270deg;
   transform-origin: top left;
   left: 0vw;
-  width: 33.3vh;
+  width: 50vh;
   text-align: center;
-  display: flex;
+  display: none;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   vertical-align: middle;
   height: 3vw;
   border-left: #ffffff solid 0.1vw;
-  opacity: 1;
   background-color: #00c844;
+  transition-duration: 0.2s;
 }
+#viewmenu2 div {
+  font-size: 1vw;
+}
+#v4 {
+  background-color: #00c844;
+  color: #ffffff;
+}
+#v3 {
+  background-color: #ffffff;
+  color: #00c844;
+}
+#v3:hover {
+  background-color: #00c844;
+  color: #ffffff;
+}
+
 #humantmenu {
   position: absolute;
-  top: 66.6vh;
+  top: 50vh;
   rotate: 270deg;
   transform-origin: top left;
   left: 0vw;
-  width: 33.3vh;
+  width: 50vh;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -538,7 +458,6 @@ html:any-link {
   vertical-align: middle;
   height: 3vw;
   border-right: #ffffff solid 0.1vw;
-  opacity: 0;
   background-color: #00c844;
   transition-duration: 0.2s;
 }
@@ -547,90 +466,51 @@ html:any-link {
 }
 #humantmenu:hover {
   opacity: 1;
-  cursor: url(Assets/cursor.svg), auto;
 }
 #h1 {
-  background-color: #ffffff;
-  color: #00c844;
-  cursor: url(Assets/cursor.svg), auto;
+  background-color: #00c844;
+  color: #ffffff;
 }
 #h2 {
   background-color: #ffffff;
   color: #00c844;
-  cursor: url(Assets/cursor.svg), auto;
-}
-#h1:hover {
-  background-color: #00c844;
-  color: #ffffff;
-  cursor: url(Assets/cursor.svg), auto;
 }
 #h2:hover {
   background-color: #00c844;
   color: #ffffff;
-  cursor: url(Assets/cursor.svg), auto;
 }
 
-#zoom {
+#humantmenu2 {
   position: absolute;
-  top: 100vh;
+  top: 50vh;
   rotate: 270deg;
   transform-origin: top left;
   left: 0vw;
-  width: 33.3vh;
-  text-align: center;
-  display: none;
-  flex-direction: column;
-  justify-content: space-around;
-  vertical-align: middle;
-  height: 3vw;
-  opacity: 1;
-  background-color: #00c844;
-}
-#zoommenu {
-  position: absolute;
-  top: 100vh;
-  rotate: 270deg;
-  transform-origin: top left;
-  left: 0vw;
-  width: 33.3vh;
+  width: 50vh;
   text-align: center;
   display: none;
   flex-direction: column;
   justify-content: space-between;
   vertical-align: middle;
   height: 3vw;
-  opacity: 0;
+  border-right: #ffffff solid 0.1vw;
   background-color: #00c844;
   transition-duration: 0.2s;
 }
-#zoommenu div {
+#humantmenu2 div {
   font-size: 1vw;
 }
-#zoommenu:hover {
-  opacity: 1;
-  cursor: url(Assets/cursor.svg), auto;
-}
-#z1 {
-  background-color: #ffffff;
-  color: #00c844;
-  display: none;
-  cursor: url(Assets/cursor.svg), auto;
-}
-#z2 {
-  background-color: #ffffff;
-  color: #00c844;
-  display: none;
-  cursor: url(Assets/cursor.svg), auto;
-}
-#z1:hover {
+#h4 {
   background-color: #00c844;
   color: #ffffff;
-  cursor: url(Assets/cursor.svg), auto;
 }
-#z2:hover {
+#h3 {
+  background-color: #ffffff;
+  color: #00c844;
+}
+#h3:hover {
   background-color: #00c844;
   color: #ffffff;
-  cursor: url(Assets/cursor.svg), auto;
 }
 
 /* -- ---- -- ---- -- ---- -- GALLERY -- ---- -- ---- -- ---- -- */
@@ -638,6 +518,33 @@ html:any-link {
 .images {
   position: relative;
   height: 10vh;
+  transition-duration: 0.2s;
+}
+
+#back {
+  position: fixed;
+  z-index: 9;
+  top: 50vh;
+  left: 50vw;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+}
+
+.closed {
+  display: none;
+}
+
+.bigimg {
+  position: fixed;
+  z-index: 10;
+  top: 50vh;
+  left: 50vw;
+  width: auto;
+  height: 60%;
+  transform: translate(-50%, -50%);
 }
 
 /* -- ---- -- ---- -- ---- -- SOURCES -- ---- -- ---- -- ---- -- */
@@ -646,11 +553,10 @@ html:any-link {
   color: #ffffff;
   position: absolute;
   height: 1vw;
-  top: 98vh;
-  width: 30vh;
-  transform-origin: top left;
-  rotate: 270deg;
-  right: -13vw;
+  top: 95vh;
+  width: 100%;
+  text-align: center;
+  left: 2vw;
   font-family: whyte;
   font-size: 1.7vw;
   font-style: italic;
