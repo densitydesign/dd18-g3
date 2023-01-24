@@ -52,6 +52,14 @@ body {
   z-index: 100;
 }
 
+#p5_loading {
+  background: #fbfbfb url("Assets/Icons/loader.gif") no-repeat center center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
 .noscroll {
   pointer-events: none;
 }
@@ -107,7 +115,7 @@ body {
   border: #00c844 solid 0.7vw;
   border-radius: 4vw;
   z-index: 22;
-  background-image: url(assets/Photo/104_umano.jpg);
+  background-image: url(Assets/Photo/104_umano.jpg);
   background-size: 10vw;
   background-repeat: no-repeat;
   background-position: center center;
@@ -130,7 +138,7 @@ body {
   background-color: #3e3e3e;
   width: 10vw;
   height: 10vw;
-  background-image: url(assets/Photo/104_umano.jpg);
+  background-image: url(Assets/Photo/104_umano.jpg);
   background-size: 10vw;
   background-repeat: no-repeat;
   transform: translate(-50%, -50%);
@@ -138,143 +146,143 @@ body {
 }
 
 #imgpb1 {
-  background-image: url(assets/Photo/1.jpg);
+  background-image: url(Assets/Photo/1.jpg);
   height: 11.25vw;
 }
 
 #imgpb1x {
-  background-image: url(assets/Photo/1.jpg);
+  background-image: url(Assets/Photo/1.jpg);
   height: 11.25vw;
 }
 
 #pbsi1 {
-  background-image: url(assets/Photo/1.jpg);
+  background-image: url(Assets/Photo/1.jpg);
 }
 
 #imgpb2 {
-  background-image: url(assets/Photo/20_umano.jpg);
+  background-image: url(Assets/Photo/20_umano.jpg);
   height: 5.63vw;
 }
 
 #imgpb2x {
-  background-image: url(assets/Photo/20_umano.jpg);
+  background-image: url(Assets/Photo/20_umano.jpg);
   height: 5.63vw;
 }
 
 #pbsi2 {
-  background-image: url(assets/Photo/20_umano.jpg);
+  background-image: url(Assets/Photo/20_umano.jpg);
 }
 
 #imgpb3 {
-  background-image: url(assets/Photo/30.jpg);
+  background-image: url(Assets/Photo/30.jpg);
   height: 6.67vw;
 }
 
 #imgpb3x {
-  background-image: url(assets/Photo/30.jpg);
+  background-image: url(Assets/Photo/30.jpg);
   height: 6.67vw;
 }
 
 #pbsi3 {
-  background-image: url(assets/Photo/30.jpg);
+  background-image: url(Assets/Photo/30.jpg);
 }
 
 #imgpb4 {
-  background-image: url(assets/Photo/48_umano.jpg);
+  background-image: url(Assets/Photo/48_umano.jpg);
   height: 6.84vw;
 }
 
 #imgpb4x {
-  background-image: url(assets/Photo/48_umano.jpg);
+  background-image: url(Assets/Photo/48_umano.jpg);
   height: 6.84vw;
 }
 
 #pbsi4 {
-  background-image: url(assets/Photo/48_umano.jpg);
+  background-image: url(Assets/Photo/48_umano.jpg);
 }
 
 #imgpb5 {
-  background-image: url(assets/Photo/84_umano.jpg);
+  background-image: url(Assets/Photo/84_umano.jpg);
   height: 5.63vw;
 }
 
 #imgpb5x {
-  background-image: url(assets/Photo/84_umano.jpg);
+  background-image: url(Assets/Photo/84_umano.jpg);
   height: 5.63vw;
 }
 
 #pbsi5 {
-  background-image: url(assets/Photo/84_umano.jpg);
+  background-image: url(Assets/Photo/84_umano.jpg);
 }
 
 #imgpb6 {
-  background-image: url(assets/Photo/135_umano.jpg);
+  background-image: url(Assets/Photo/135_umano.jpg);
   height: 6.67vw;
 }
 
 #imgpb6x {
-  background-image: url(assets/Photo/135_umano.jpg);
+  background-image: url(Assets/Photo/135_umano.jpg);
   height: 6.67vw;
 }
 
 #pbsi6 {
-  background-image: url(assets/Photo/135_umano.jpg);
+  background-image: url(Assets/Photo/135_umano.jpg);
 }
 
 #imgpb7 {
-  background-image: url(assets/Photo/256_umano.jpg);
+  background-image: url(Assets/Photo/256_umano.jpg);
   height: 4.99vw;
 }
 
 #imgpb7x {
-  background-image: url(assets/Photo/256_umano.jpg);
+  background-image: url(Assets/Photo/256_umano.jpg);
   height: 4.99vw;
 }
 
 #pbsi7 {
-  background-image: url(assets/Photo/256_umano.jpg);
+  background-image: url(Assets/Photo/256_umano.jpg);
 }
 
 #imgpb8 {
-  background-image: url(assets/Photo/279.jpg);
+  background-image: url(Assets/Photo/279.jpg);
   height: 5.72vw;
 }
 
 #imgpb8x {
-  background-image: url(assets/Photo/279.jpg);
+  background-image: url(Assets/Photo/279.jpg);
   height: 5.72vw;
 }
 
 #pbsi8 {
-  background-image: url(assets/Photo/279.jpg);
+  background-image: url(Assets/Photo/279.jpg);
 }
 
 #imgpb9 {
-  background-image: url(assets/Photo/439.jpg);
+  background-image: url(Assets/Photo/439.jpg);
   height: 8.06vw;
 }
 
 #imgpb9x {
-  background-image: url(assets/Photo/439.jpg);
+  background-image: url(Assets/Photo/439.jpg);
   height: 8.06vw;
 }
 
 #pbsi9 {
-  background-image: url(assets/Photo/439.jpg);
+  background-image: url(Assets/Photo/439.jpg);
 }
 
 #imgpb10 {
-  background-image: url(assets/Photo/572_umano.jpeg);
+  background-image: url(Assets/Photo/572_umano.jpeg);
   height: 6.65vw;
 }
 
 #imgpb10x {
-  background-image: url(assets/Photo/572_umano.jpeg);
+  background-image: url(Assets/Photo/572_umano.jpeg);
   height: 6.65vw;
 }
 
 #pbsi10 {
-  background-image: url(assets/Photo/572_umano.jpeg);
+  background-image: url(Assets/Photo/572_umano.jpeg);
 }
 /* -- ---- -- ---- -- ---- -- NAVBAR -- ---- -- ---- -- ---- -- */
 
