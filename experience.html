@@ -3980,7 +3980,36 @@
             right: 0vw;
           "
         >
-          <div id="back" class="closed" onclick="backimg2()"></div>
+          <div id="back" class="closed" onclick="backimg2()">
+            <div
+              style="
+                width: 7vh;
+                height: 7vh;
+                background: linear-gradient(
+                    to top left,
+                    rgba(0, 0, 0, 0) 0%,
+                    rgba(0, 0, 0, 0) calc(50% - 0.2vh),
+                    rgba(0, 200, 68, 1) 50%,
+                    rgba(0, 0, 0, 0) calc(50% + 0.2vh),
+                    rgba(0, 0, 0, 0) 100%
+                  ),
+                  linear-gradient(
+                    to top right,
+                    rgba(0, 0, 0, 0) 0%,
+                    rgba(0, 0, 0, 0) calc(50% - 0.2vh),
+                    rgba(0, 200, 68, 1) 50%,
+                    rgba(0, 0, 0, 0) calc(50% + 0.2vh),
+                    rgba(0, 0, 0, 0) 100%
+                  );
+                position: absolute;
+                top: 0vh;
+                right: 0vw;
+                border: 0.3vh solid;
+                border-color: #00c844;
+                background-color: white;
+              "
+            ></div>
+          </div>
           <img
             class="images dotsimg"
             id="img1"
@@ -13433,11 +13462,11 @@
 
         <div
           style="
-            width: 70vw;
-            height: 65vh;
+            width: 80vw;
+            height: 80vh;
             background-color: white;
             position: relative;
-            top: 15vh;
+            top: 10vh;
             border: 0.3vh solid;
             border-color: #00c844;
           "
@@ -13446,7 +13475,7 @@
 
           <div
             style="
-              width: 70vw;
+              width: 80vw;
               height: 7vh;
               background-color: white;
               position: relative;
@@ -13497,7 +13526,6 @@
                 position: relative;
                 top: 0vh;
                 float: left;
-                left: 0vw;
                 font-family: whyte;
                 font-size: 5vh;
                 left: 1vw;
@@ -13506,87 +13534,251 @@
             >
               HOW TO READ PLANT FORWARD
             </div>
+          </div>
+          <div id="containertutorial">
+            <div id="containerhowto" class="containeractive">
+              <div class="tutorialdivs">
+                <div
+                  class="imgtutorial"
+                  style="background-image: url(Assets/gif1.gif)"
+                ></div>
+                <div>
+                  <span style="color: #00c844; font-weight: bold"
+                    >Dots on the map:</span
+                  ><br /><br /><span
+                    style="color: white; background-color: #00c844"
+                  >
+                    SCROLL UP</span
+                  >
+                  from the bottom to follow the reforestation process. Each dot
+                  represents an image; clicking on a dot allows you to move the
+                  cursor over that point, either in growth or gallery view.
+                </div>
+              </div>
+              <div class="tutorialdivs">
+                <div
+                  class="imgtutorial"
+                  style="background-image: url(Assets/gif2.gif)"
+                ></div>
+                <div>
+                  <span style="color: #00c844; font-weight: bold">Phases:</span
+                  ><br /><br />The growth process is divided into
+                  <span style="color: white; background-color: #00c844"
+                    >6 PHASES</span
+                  >. The icon on the cursor bar indicates the phase the cursor
+                  is on.
+                </div>
+              </div>
+              <div class="tutorialdivs">
+                <div
+                  class="imgtutorial"
+                  style="background-image: url(Assets/gif4.gif)"
+                ></div>
+                <div>
+                  <span style="color: #00c844; font-weight: bold"
+                    >View mode:</span
+                  ><br /><br />From the bar on the right you can switch between
+                  view modes.<br /><br />
+                  <span class="currentmode" id="currentgrowth"
+                    >You are currently in <br />
+                    <span style="color: white; background-color: #00c844"
+                      >GROWTH VIEW</span
+                    ></span
+                  ><span class="noncurrentmode" id="currentgallery"
+                    >You are currently in<br />
+                    <span style="color: white; background-color: #00c844"
+                      >GALLERY VIEW</span
+                    ></span
+                  >
+                </div>
+              </div>
+              <div class="tutorialdivs">
+                <div
+                  class="imgtutorial"
+                  style="background-image: url(Assets/gif3.gif)"
+                ></div>
+                <div>
+                  <span style="color: #00c844; font-weight: bold"
+                    >Filter humans:</span
+                  ><br /><br />From the bar on the right you can choose to see
+                  only
+                  <span style="color: white; background-color: #00c844"
+                    >IMAGES CONTAINING HUMANS</span
+                  >.
+                </div>
+              </div>
+            </div>
 
-            <!-------------------------- DIV CON LE IMMAGINI ---------------------------------------------------------------------->
+            <!-------------------------- TESTO ---------------------------------------------------------------------->
 
-            <div
-              style="
-                width: 70vw;
-                height: 52vh;
-                position: relative;
-                top: 0vh;
-                left: 0vw;
-                font-family: whyte;
-                font-size: 5vh;
-                display: table;
-                left: 2.7vw;
-              "
-            >
-              <div style="float: left; width: 25%">
-                <div class="gif1"></div>
-                <div
-                  style="
-                    color: #3e3e3e;
-                    width: 12vw;
-                    text-align: left;
-                    font-size: 2vh;
-                    top: 8vh;
-                    position: relative;
-                  "
-                >
-                  <i>SCROLL UP</i> &nbspfrom the bottom to follow the process of
-                  reforestation. Each dot represent an image.
+            <div id="containerkey" class="containernonactive">
+              <div class="keydivs">
+                <div class="keytitles">Dots:</div>
+
+                <div class="keyelemets">
+                  <div
+                    style="
+                      width: 2.5vh;
+                      height: 2.5vh;
+                      background-image: url(Assets/Icons/bigdot.jpg);
+                      background-size: cover;
+                      margin-right: 2.5vw;
+                    "
+                  ></div>
+                  <div>Selected image</div>
+                </div>
+
+                <div class="keyelemets">
+                  <div
+                    style="
+                      width: 2.5vh;
+                      height: 2.5vh;
+                      background-image: url(Assets/Icons/normaldot.jpg);
+                      background-size: 1vh;
+                      margin-right: 2.5vw;
+                      background-repeat: no-repeat;
+                      background-position: 50% 50%;
+                    "
+                  ></div>
+                  <div>Image without human presence</div>
+                </div>
+
+                <div class="keyelemets">
+                  <div
+                    style="
+                      width: 2.5vh;
+                      height: 2.5vh;
+                      background-image: url(Assets/Icons/humandot.jpg);
+                      background-size: 1vh;
+                      margin-right: 2.5vw;
+                      background-repeat: no-repeat;
+                      background-position: 50% 50%;
+                    "
+                  ></div>
+                  <div>Image with human presence</div>
+                </div>
+
+                <div class="keytitles" style="padding-top: 5vh">Phases:</div>
+
+                <div class="keyelemets">
+                  <div
+                    class="phaseimg"
+                    style="background-image: url(Assets/Icons/phase6.jpg)"
+                  ></div>
+                  <div style="margin-top: 1.5vh">TIMBER</div>
+                </div>
+
+                <div class="keyelemets">
+                  <div
+                    class="phaseimg"
+                    style="background-image: url(Assets/Icons/phase5.jpg)"
+                  ></div>
+                  <div style="margin-top: 1.5vh">FOREST</div>
+                </div>
+
+                <div class="keyelemets">
+                  <div
+                    class="phaseimg"
+                    style="background-image: url(Assets/Icons/phase4.jpg)"
+                  ></div>
+                  <div style="margin-top: 1.5vh">BOSCAGE</div>
+                </div>
+
+                <div class="keyelemets">
+                  <div
+                    class="phaseimg"
+                    style="background-image: url(Assets/Icons/phase3.jpg)"
+                  ></div>
+                  <div style="margin-top: 1.5vh">TREE</div>
+                </div>
+
+                <div class="keyelemets">
+                  <div
+                    class="phaseimg"
+                    style="background-image: url(Assets/Icons/phase2.jpg)"
+                  ></div>
+                  <div style="margin-top: 1.5vh">SAPLING</div>
+                </div>
+
+                <div class="keyelemets">
+                  <div
+                    class="phaseimg"
+                    style="background-image: url(Assets/Icons/phase1.jpg)"
+                  ></div>
+                  <div style="margin-top: 1.5vh">WASTELAND</div>
                 </div>
               </div>
-              <div style="float: left; width: 25%">
-                <div class="gif2"></div>
-                <div
-                  style="
-                    color: #3e3e3e;
-                    width: 12vw;
-                    text-align: left;
-                    font-size: 2vh;
-                    top: 8vh;
-                    position: relative;
-                  "
-                >
-                  The growth process is divided into 6 phases. The icon on the
-                  cursor bar indicates the phase the cursor is on.
+
+              <div class="keydivs">
+                <div class="keytitles">Filter:</div>
+                <div class="keyelements" style="margin-top: 3vh">
+                  ALL IMAGES
+                </div>
+                <div class="keyelements">HUMAN PRESENCE</div>
+                <div class="keytitles" style="padding-top: 15vh">
+                  View mode:
+                </div>
+                <div class="keyelements" style="margin-top: 3vh">
+                  GROWTH VIEW
+                </div>
+                <div class="keyelements">GALLERY VIEW</div>
+              </div>
+
+              <div class="keydivs">
+                <div style="margin-top: 3.4vh; height: 1.7vh">
+                  ALL IMAGES shows both images containing and not containing
+                  human presence.
+                </div>
+
+                <div style="margin-top: 12.6vh; height: 1.7vh">
+                  HUMAN PRESENCE shows only those images that contain human
+                  presence.
+                </div>
+
+                <div style="margin-top: 19.8vh; height: 1.7vh">
+                  GROWTH VIEW retraces the growth of a forest through morphing
+                  images
+                </div>
+
+                <div style="margin-top: 12.6vh; height: 1.7vh">
+                  GALLERY VIEW offers a overview of the archive
                 </div>
               </div>
-              <div style="float: left; width: 25%">
-                <div class="gif3"></div>
-                <div
+            </div>
+
+            <div id="containerbuttons">
+              <div
+                onclick="openhowto()"
+                id="howtobutton"
+                class="active"
+                style="top: 7.3vh"
+              >
+                <a
                   style="
-                    color: #3e3e3e;
-                    width: 12vw;
-                    text-align: left;
-                    font-size: 2vh;
-                    top: 8vh;
-                    position: relative;
+                    position: absolute;
+                    right: 0vh;
+                    top: 1.3vh;
+                    width: 36.5vh;
                   "
+                  >HOW TO</a
                 >
-                  A thicker outline indicates that the image depict (also)
-                  people.
-                  <br />
-                  From the bar on the right you can filter those images only.
-                </div>
               </div>
-              <div style="float: left; width: 25%">
-                <div class="gif4"></div>
-                <div
+
+              <div
+                onclick="openkey()"
+                id="keybutton"
+                class="nonactive"
+                style="top: 43.5vh"
+              >
+                <a
                   style="
-                    color: #3e3e3e;
-                    width: 12vw;
-                    text-align: left;
-                    font-size: 2vh;
-                    top: 8vh;
-                    position: relative;
+                    position: absolute;
+                    right: 0vh;
+                    top: 1.3vh;
+                    width: 36.5vh;
                   "
+                  >KEY</a
                 >
-                  Use the bar on the right to set your visualisation
-                  preferences.
-                </div>
               </div>
             </div>
           </div>
@@ -13597,12 +13789,14 @@
     <!-------------------------- SCRIPT ---------------------------------------------------------------------->
 
     <script src="scrollexperience.js"></script>
+
     <script>
       var loader = document.getElementById("preloader");
       window.addEventListener("load", function () {
         loader.style.display = "none";
       });
     </script>
+
     <script>
       window.onload = function () {
         var element = document.getElementById("t1");
@@ -13610,6 +13804,44 @@
 
         tutorial.restart();
       };
+    </script>
+
+    <script>
+      function openkey() {
+        var element = document.getElementById("containerkey");
+        element.classList.remove("containernonactive");
+        element.classList.add("containeractive");
+
+        var element = document.getElementById("containerhowto");
+        element.classList.remove("containeractive");
+        element.classList.add("containernonactive");
+
+        var element = document.getElementById("keybutton");
+        element.classList.remove("nonactive");
+        element.classList.add("active");
+
+        var element = document.getElementById("howtobutton");
+        element.classList.remove("active");
+        element.classList.add("nonactive");
+      }
+
+      function openhowto() {
+        var element = document.getElementById("containerkey");
+        element.classList.add("containernonactive");
+        element.classList.remove("containeractive");
+
+        var element = document.getElementById("containerhowto");
+        element.classList.add("containeractive");
+        element.classList.remove("containernonactive");
+
+        var element = document.getElementById("keybutton");
+        element.classList.add("nonactive");
+        element.classList.remove("active");
+
+        var element = document.getElementById("howtobutton");
+        element.classList.add("active");
+        element.classList.remove("nonactive");
+      }
     </script>
   </body>
 </html>

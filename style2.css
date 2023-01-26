@@ -388,7 +388,7 @@ body {
   justify-content: space-between;
   vertical-align: middle;
   height: 3vw;
-  border-left: #ffffff solid 0.1vw;
+  border-right: #00c844 solid 0.1vw;
   background-color: #00c844;
   transition-duration: 0.2s;
 }
@@ -424,7 +424,7 @@ body {
   justify-content: space-between;
   vertical-align: middle;
   height: 3vw;
-  border-left: #ffffff solid 0.1vw;
+  border-right: #00c844 solid 0.1vw;
   background-color: #00c844;
   transition-duration: 0.2s;
 }
@@ -528,9 +528,8 @@ body {
   left: 50vw;
   width: 100vw;
   height: 100vh;
-  opacity: 0.5;
   transform: translate(-50%, -50%);
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .closed {
@@ -545,6 +544,10 @@ body {
   width: auto;
   height: 60%;
   transform: translate(-50%, -50%);
+  border: 0.3vh solid;
+  border-color: #00c844;
+  padding: 2vh;
+  background-color: #ffffff;
 }
 
 /* -- ---- -- ---- -- ---- -- SOURCES -- ---- -- ---- -- ---- -- */
@@ -577,54 +580,121 @@ body {
 
 /* -- ---- -- ---- -- ---- -- TUTORIAL -- ---- -- ---- -- ---- -- */
 
-.gif1 {
-  width: 12vw;
-  height: 12vw;
-  border-radius: 50%;
-  position: relative;
-  top: 7vh;
-  background: url("Assets/gif1.gif");
-  background-size: contain;
-  background-repeat: no-repeat;
-  border: #00c844 solid 0.1vw;
-  background-position: center;
+.active {
+  height: 7vh;
+  width: 36.5vh;
+  background-color: #00c844;
+  position: absolute;
+  font-family: whyte;
+  font-size: 3vh;
+  text-align: center;
+  right: 7.3vh;
+  border-top: 0.3vh solid;
+  border-top-color: #00c844;
+  transform-origin: top right;
+  transform: rotate(270deg);
+  color: white;
 }
 
-.gif2 {
-  width: 12vw;
-  height: 12vw;
-  border-radius: 50%;
-  position: relative;
-  top: 7vh;
-  background: url("Assets/gif2.gif");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: #00c844 solid 0.1vw;
+.nonactive {
+  height: 7vh;
+  width: 36.5vh;
+  background-color: white;
+  position: absolute;
+  font-family: whyte;
+  font-size: 3vh;
+  text-align: center;
+  right: 7.3vh;
+  border-top: 0.3vh solid;
+  border-top-color: #00c844;
+  transform-origin: top right;
+  transform: rotate(270deg);
+  color: #00c844;
 }
 
-.gif3 {
-  width: 12vw;
-  height: 12vw;
-  border-radius: 50%;
-  position: relative;
-  top: 7vh;
-  background: url("Assets/gif3.gif");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: #00c844 solid 0.1vw;
+.nonactive:hover {
+  background-color: #00c844;
+  color: white;
 }
 
-.gif4 {
-  width: 12vw;
-  height: 12vw;
-  border-radius: 50%;
-  position: relative;
-  top: 7vh;
-  background: url("Assets/gif4.gif");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: #00c844 solid 0.1vw;
+#containertutorial {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  height: 72.7vh;
+  border-bottom: 0.3vh solid;
+  border-bottom-color: #00c844;
+  font-family: whyte;
+  font-size: 1.7vh;
+}
+
+#containerbuttons {
+  width: 7vh;
+}
+
+.containeractive {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.tutorialdivs {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+}
+
+.imgtutorial {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: #00c844;
+  margin-top: 4vh;
+  margin-bottom: 5vh;
+  background-size: cover;
+  border: #00c844 solid 0.3vh;
+}
+
+.containernonactive {
+  display: none;
+}
+
+.keydivs {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  margin-top: 4vh;
+  margin-bottom: 5vh;
+}
+
+.keyelemets {
+  display: flex;
+  margin-top: 2vh;
+}
+
+.keytitles {
+  color: #00c844;
+  font-weight: bold;
+}
+
+.phaseimg {
+  width: 5vh;
+  height: 5vh;
+  margin-right: 1vw;
+  background-size: cover;
+  border-radius: 3vw;
+}
+
+.keyelements {
+  color: white;
+  width: 100%;
+  text-align: center;
+  background-color: #00c844;
+  margin-top: 12vh;
+}
+
+.noncurrentmode {
+  display: none;
 }

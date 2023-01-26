@@ -4906,9 +4906,9 @@ for (let i = 0; i < 232; i++) {
             element.classList.remove("greendot");
           } else {
             if (human == true) {
-              /* var element = document.getElementById(hobj[i]);
+              var element = document.getElementById(hobj[i]);
               element.classList.add("bigdot");
-              element.classList.remove("greendot"); */
+              element.classList.remove("greendot");
 
               var x = document.getElementById(sources[j]);
               x.classList.remove("hide");
@@ -4975,9 +4975,9 @@ for (let i = 0; i < 587; i++) {
             x.classList.add("hide");
           } else {
             if (human == false) {
-              /* var element = document.getElementById(obj[i]);
+              var element = document.getElementById(obj[i]);
               element.classList.add("bigdot");
-              element.classList.remove("greendot"); */
+              element.classList.remove("greendot");
 
               var x = document.getElementById(sources[j]);
               x.classList.remove("hide");
@@ -5214,8 +5214,32 @@ let galleryview = gsap
   .to("#galleryenv", 0, { display: "flex" })
   .to("#humantmenu2", 0, { display: "flex" })
   .to("#humantmenu", 0, { display: "none" });
-document.getElementById("h2").onclick = () => galleryview.restart();
-document.getElementById("h3").onclick = () => galleryview.reverse();
+document.getElementById("h2").onclick = () => opengallery();
+document.getElementById("h3").onclick = () => closegallery();
+
+function opengallery() {
+  galleryview.restart();
+
+  var element = document.getElementById("currentgrowth");
+  element.classList.add("noncurrentmode");
+  element.classList.remove("currentmode");
+
+  var element = document.getElementById("currentgallery");
+  element.classList.remove("noncurrentmode");
+  element.classList.add("currentmode");
+}
+
+function closegallery() {
+  galleryview.reverse();
+
+  var element = document.getElementById("currentgallery");
+  element.classList.add("noncurrentmode");
+  element.classList.remove("currentmode");
+
+  var element = document.getElementById("currentgrowth");
+  element.classList.remove("noncurrentmode");
+  element.classList.add("currentmode");
+}
 
 let humanview = gsap
   .timeline({
