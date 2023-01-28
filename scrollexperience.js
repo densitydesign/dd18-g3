@@ -5281,6 +5281,9 @@ function backimg2() {
 
   var element = document.getElementById("back");
   element.classList.add("closed");
+
+  var element = document.getElementById("xbutton");
+  element.classList.add("closed");
 }
 
 let cpositions1 = [];
@@ -9026,11 +9029,15 @@ function openimg1() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg2() {
   var element = document.getElementById("img2");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg3() {
@@ -9038,11 +9045,15 @@ function openimg3() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg4() {
   var element = document.getElementById("img4");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg5() {
@@ -9050,11 +9061,15 @@ function openimg5() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg6() {
   var element = document.getElementById("img6");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg7() {
@@ -9062,11 +9077,15 @@ function openimg7() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg8() {
   var element = document.getElementById("img8");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg9() {
@@ -9074,11 +9093,15 @@ function openimg9() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg10() {
   var element = document.getElementById("img10");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg11() {
@@ -9086,11 +9109,15 @@ function openimg11() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg12() {
   var element = document.getElementById("img12");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg13() {
@@ -9098,11 +9125,15 @@ function openimg13() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg14() {
   var element = document.getElementById("img14");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg15() {
@@ -9110,11 +9141,15 @@ function openimg15() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg16() {
   var element = document.getElementById("img16");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg17() {
@@ -9122,11 +9157,15 @@ function openimg17() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg18() {
   var element = document.getElementById("img18");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg19() {
@@ -9134,11 +9173,15 @@ function openimg19() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg20() {
   var element = document.getElementById("img20");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg21() {
@@ -9146,11 +9189,15 @@ function openimg21() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg22() {
   var element = document.getElementById("img22");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg23() {
@@ -9158,11 +9205,15 @@ function openimg23() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg24() {
   var element = document.getElementById("img24");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg25() {
@@ -9170,11 +9221,15 @@ function openimg25() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg26() {
   var element = document.getElementById("img26");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg27() {
@@ -9182,11 +9237,15 @@ function openimg27() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg28() {
   var element = document.getElementById("img28");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg29() {
@@ -9194,11 +9253,15 @@ function openimg29() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg30() {
   var element = document.getElementById("img30");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg31() {
@@ -9206,11 +9269,15 @@ function openimg31() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg32() {
   var element = document.getElementById("img32");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg33() {
@@ -9218,11 +9285,15 @@ function openimg33() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg34() {
   var element = document.getElementById("img34");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg35() {
@@ -9230,11 +9301,15 @@ function openimg35() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg36() {
   var element = document.getElementById("img36");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg37() {
@@ -9242,11 +9317,15 @@ function openimg37() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg38() {
   var element = document.getElementById("img38");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg39() {
@@ -9254,11 +9333,15 @@ function openimg39() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg40() {
   var element = document.getElementById("img40");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg41() {
@@ -9266,11 +9349,15 @@ function openimg41() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg42() {
   var element = document.getElementById("img42");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg43() {
@@ -9278,11 +9365,15 @@ function openimg43() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg44() {
   var element = document.getElementById("img44");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg45() {
@@ -9290,11 +9381,15 @@ function openimg45() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg46() {
   var element = document.getElementById("img46");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg47() {
@@ -9302,11 +9397,15 @@ function openimg47() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg48() {
   var element = document.getElementById("img48");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg49() {
@@ -9314,11 +9413,15 @@ function openimg49() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg50() {
   var element = document.getElementById("img50");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg51() {
@@ -9326,11 +9429,15 @@ function openimg51() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg52() {
   var element = document.getElementById("img52");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg53() {
@@ -9338,11 +9445,15 @@ function openimg53() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg54() {
   var element = document.getElementById("img54");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg55() {
@@ -9350,11 +9461,15 @@ function openimg55() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg56() {
   var element = document.getElementById("img56");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg57() {
@@ -9362,11 +9477,15 @@ function openimg57() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg58() {
   var element = document.getElementById("img58");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg59() {
@@ -9374,11 +9493,15 @@ function openimg59() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg60() {
   var element = document.getElementById("img60");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg61() {
@@ -9386,11 +9509,15 @@ function openimg61() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg62() {
   var element = document.getElementById("img62");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg63() {
@@ -9398,11 +9525,15 @@ function openimg63() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg64() {
   var element = document.getElementById("img64");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg65() {
@@ -9410,11 +9541,15 @@ function openimg65() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg66() {
   var element = document.getElementById("img66");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg67() {
@@ -9422,11 +9557,15 @@ function openimg67() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg68() {
   var element = document.getElementById("img68");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg69() {
@@ -9434,11 +9573,15 @@ function openimg69() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg70() {
   var element = document.getElementById("img70");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg71() {
@@ -9446,11 +9589,15 @@ function openimg71() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg72() {
   var element = document.getElementById("img72");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg73() {
@@ -9458,11 +9605,15 @@ function openimg73() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg74() {
   var element = document.getElementById("img74");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg75() {
@@ -9470,11 +9621,15 @@ function openimg75() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg76() {
   var element = document.getElementById("img76");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg77() {
@@ -9482,11 +9637,15 @@ function openimg77() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg78() {
   var element = document.getElementById("img78");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg79() {
@@ -9494,11 +9653,15 @@ function openimg79() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg80() {
   var element = document.getElementById("img80");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg81() {
@@ -9506,11 +9669,15 @@ function openimg81() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg82() {
   var element = document.getElementById("img82");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg83() {
@@ -9518,11 +9685,15 @@ function openimg83() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg84() {
   var element = document.getElementById("img84");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg85() {
@@ -9530,11 +9701,15 @@ function openimg85() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg86() {
   var element = document.getElementById("img86");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg87() {
@@ -9542,11 +9717,15 @@ function openimg87() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg88() {
   var element = document.getElementById("img88");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg89() {
@@ -9554,11 +9733,15 @@ function openimg89() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg90() {
   var element = document.getElementById("img90");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg91() {
@@ -9566,11 +9749,15 @@ function openimg91() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg92() {
   var element = document.getElementById("img92");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg93() {
@@ -9578,11 +9765,15 @@ function openimg93() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg94() {
   var element = document.getElementById("img94");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg95() {
@@ -9590,11 +9781,15 @@ function openimg95() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg96() {
   var element = document.getElementById("img96");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg97() {
@@ -9602,11 +9797,15 @@ function openimg97() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg98() {
   var element = document.getElementById("img98");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg99() {
@@ -9614,11 +9813,15 @@ function openimg99() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg100() {
   var element = document.getElementById("img100");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg101() {
@@ -9626,11 +9829,15 @@ function openimg101() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg102() {
   var element = document.getElementById("img102");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg103() {
@@ -9638,11 +9845,15 @@ function openimg103() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg104() {
   var element = document.getElementById("img104");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg105() {
@@ -9650,11 +9861,15 @@ function openimg105() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg106() {
   var element = document.getElementById("img106");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg107() {
@@ -9662,11 +9877,15 @@ function openimg107() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg108() {
   var element = document.getElementById("img108");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg109() {
@@ -9674,11 +9893,15 @@ function openimg109() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg110() {
   var element = document.getElementById("img110");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg111() {
@@ -9686,11 +9909,15 @@ function openimg111() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg112() {
   var element = document.getElementById("img112");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg113() {
@@ -9698,11 +9925,15 @@ function openimg113() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg114() {
   var element = document.getElementById("img114");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg115() {
@@ -9710,11 +9941,15 @@ function openimg115() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg116() {
   var element = document.getElementById("img116");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg117() {
@@ -9722,11 +9957,15 @@ function openimg117() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg118() {
   var element = document.getElementById("img118");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg119() {
@@ -9734,11 +9973,15 @@ function openimg119() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg120() {
   var element = document.getElementById("img120");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg121() {
@@ -9746,11 +9989,15 @@ function openimg121() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg122() {
   var element = document.getElementById("img122");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg123() {
@@ -9758,11 +10005,15 @@ function openimg123() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg124() {
   var element = document.getElementById("img124");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg125() {
@@ -9770,11 +10021,15 @@ function openimg125() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg126() {
   var element = document.getElementById("img126");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg127() {
@@ -9782,11 +10037,15 @@ function openimg127() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg128() {
   var element = document.getElementById("img128");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg129() {
@@ -9794,11 +10053,15 @@ function openimg129() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg130() {
   var element = document.getElementById("img130");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg131() {
@@ -9806,11 +10069,15 @@ function openimg131() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg132() {
   var element = document.getElementById("img132");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg133() {
@@ -9818,11 +10085,15 @@ function openimg133() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg134() {
   var element = document.getElementById("img134");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg135() {
@@ -9830,11 +10101,15 @@ function openimg135() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg136() {
   var element = document.getElementById("img136");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg137() {
@@ -9842,11 +10117,15 @@ function openimg137() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg138() {
   var element = document.getElementById("img138");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg139() {
@@ -9854,11 +10133,15 @@ function openimg139() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg140() {
   var element = document.getElementById("img140");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg141() {
@@ -9866,11 +10149,15 @@ function openimg141() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg142() {
   var element = document.getElementById("img142");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg143() {
@@ -9878,11 +10165,15 @@ function openimg143() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg144() {
   var element = document.getElementById("img144");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg145() {
@@ -9890,11 +10181,15 @@ function openimg145() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg146() {
   var element = document.getElementById("img146");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg147() {
@@ -9902,11 +10197,15 @@ function openimg147() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg148() {
   var element = document.getElementById("img148");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg149() {
@@ -9914,11 +10213,15 @@ function openimg149() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg150() {
   var element = document.getElementById("img150");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg151() {
@@ -9926,11 +10229,15 @@ function openimg151() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg152() {
   var element = document.getElementById("img152");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg153() {
@@ -9938,11 +10245,15 @@ function openimg153() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg154() {
   var element = document.getElementById("img154");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg155() {
@@ -9950,11 +10261,15 @@ function openimg155() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg156() {
   var element = document.getElementById("img156");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg157() {
@@ -9962,11 +10277,15 @@ function openimg157() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg158() {
   var element = document.getElementById("img158");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg159() {
@@ -9974,11 +10293,15 @@ function openimg159() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg160() {
   var element = document.getElementById("img160");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg161() {
@@ -9986,11 +10309,15 @@ function openimg161() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg162() {
   var element = document.getElementById("img162");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg163() {
@@ -9998,11 +10325,15 @@ function openimg163() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg164() {
   var element = document.getElementById("img164");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg165() {
@@ -10010,11 +10341,15 @@ function openimg165() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg166() {
   var element = document.getElementById("img166");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg167() {
@@ -10022,11 +10357,15 @@ function openimg167() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg168() {
   var element = document.getElementById("img168");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg169() {
@@ -10034,11 +10373,15 @@ function openimg169() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg170() {
   var element = document.getElementById("img170");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg171() {
@@ -10046,11 +10389,15 @@ function openimg171() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg172() {
   var element = document.getElementById("img172");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg173() {
@@ -10058,11 +10405,15 @@ function openimg173() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg174() {
   var element = document.getElementById("img174");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg175() {
@@ -10070,11 +10421,15 @@ function openimg175() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg176() {
   var element = document.getElementById("img176");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg177() {
@@ -10082,11 +10437,15 @@ function openimg177() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg178() {
   var element = document.getElementById("img178");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg179() {
@@ -10094,11 +10453,15 @@ function openimg179() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg180() {
   var element = document.getElementById("img180");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg181() {
@@ -10106,11 +10469,15 @@ function openimg181() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg182() {
   var element = document.getElementById("img182");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg183() {
@@ -10118,11 +10485,15 @@ function openimg183() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg184() {
   var element = document.getElementById("img184");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg185() {
@@ -10130,11 +10501,15 @@ function openimg185() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg186() {
   var element = document.getElementById("img186");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg187() {
@@ -10142,11 +10517,15 @@ function openimg187() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg188() {
   var element = document.getElementById("img188");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg189() {
@@ -10154,11 +10533,15 @@ function openimg189() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg190() {
   var element = document.getElementById("img190");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg191() {
@@ -10166,11 +10549,15 @@ function openimg191() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg192() {
   var element = document.getElementById("img192");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg193() {
@@ -10178,11 +10565,15 @@ function openimg193() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg194() {
   var element = document.getElementById("img194");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg195() {
@@ -10190,11 +10581,15 @@ function openimg195() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg196() {
   var element = document.getElementById("img196");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg197() {
@@ -10202,11 +10597,15 @@ function openimg197() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg198() {
   var element = document.getElementById("img198");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg199() {
@@ -10214,11 +10613,15 @@ function openimg199() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg200() {
   var element = document.getElementById("img200");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg201() {
@@ -10226,11 +10629,15 @@ function openimg201() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg202() {
   var element = document.getElementById("img202");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg203() {
@@ -10238,11 +10645,15 @@ function openimg203() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg204() {
   var element = document.getElementById("img204");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg205() {
@@ -10250,11 +10661,15 @@ function openimg205() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg206() {
   var element = document.getElementById("img206");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg207() {
@@ -10262,11 +10677,15 @@ function openimg207() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg208() {
   var element = document.getElementById("img208");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg209() {
@@ -10274,11 +10693,15 @@ function openimg209() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg210() {
   var element = document.getElementById("img210");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg211() {
@@ -10286,11 +10709,15 @@ function openimg211() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg212() {
   var element = document.getElementById("img212");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg213() {
@@ -10298,11 +10725,15 @@ function openimg213() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg214() {
   var element = document.getElementById("img214");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg215() {
@@ -10310,11 +10741,15 @@ function openimg215() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg216() {
   var element = document.getElementById("img216");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg217() {
@@ -10322,11 +10757,15 @@ function openimg217() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg218() {
   var element = document.getElementById("img218");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg219() {
@@ -10334,11 +10773,15 @@ function openimg219() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg220() {
   var element = document.getElementById("img220");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg221() {
@@ -10346,11 +10789,15 @@ function openimg221() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg222() {
   var element = document.getElementById("img222");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg223() {
@@ -10358,11 +10805,15 @@ function openimg223() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg224() {
   var element = document.getElementById("img224");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg225() {
@@ -10370,11 +10821,15 @@ function openimg225() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg226() {
   var element = document.getElementById("img226");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg227() {
@@ -10382,11 +10837,15 @@ function openimg227() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg228() {
   var element = document.getElementById("img228");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg229() {
@@ -10394,11 +10853,15 @@ function openimg229() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg230() {
   var element = document.getElementById("img230");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg231() {
@@ -10406,11 +10869,15 @@ function openimg231() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg232() {
   var element = document.getElementById("img232");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg233() {
@@ -10418,11 +10885,15 @@ function openimg233() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg234() {
   var element = document.getElementById("img234");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg235() {
@@ -10430,11 +10901,15 @@ function openimg235() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg236() {
   var element = document.getElementById("img236");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg237() {
@@ -10442,11 +10917,15 @@ function openimg237() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg238() {
   var element = document.getElementById("img238");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg239() {
@@ -10454,11 +10933,15 @@ function openimg239() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg240() {
   var element = document.getElementById("img240");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg241() {
@@ -10466,11 +10949,15 @@ function openimg241() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg242() {
   var element = document.getElementById("img242");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg243() {
@@ -10478,11 +10965,15 @@ function openimg243() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg244() {
   var element = document.getElementById("img244");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg245() {
@@ -10490,11 +10981,15 @@ function openimg245() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg246() {
   var element = document.getElementById("img246");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg247() {
@@ -10502,11 +10997,15 @@ function openimg247() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg248() {
   var element = document.getElementById("img248");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg249() {
@@ -10514,11 +11013,15 @@ function openimg249() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg250() {
   var element = document.getElementById("img250");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg251() {
@@ -10526,11 +11029,15 @@ function openimg251() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg252() {
   var element = document.getElementById("img252");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg253() {
@@ -10538,11 +11045,15 @@ function openimg253() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg254() {
   var element = document.getElementById("img254");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg255() {
@@ -10550,11 +11061,15 @@ function openimg255() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg256() {
   var element = document.getElementById("img256");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg257() {
@@ -10562,11 +11077,15 @@ function openimg257() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg258() {
   var element = document.getElementById("img258");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg259() {
@@ -10574,11 +11093,15 @@ function openimg259() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg260() {
   var element = document.getElementById("img260");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg261() {
@@ -10586,11 +11109,15 @@ function openimg261() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg262() {
   var element = document.getElementById("img262");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg263() {
@@ -10598,11 +11125,15 @@ function openimg263() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg264() {
   var element = document.getElementById("img264");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg265() {
@@ -10610,11 +11141,15 @@ function openimg265() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg266() {
   var element = document.getElementById("img266");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg267() {
@@ -10622,11 +11157,15 @@ function openimg267() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg268() {
   var element = document.getElementById("img268");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg269() {
@@ -10634,11 +11173,15 @@ function openimg269() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg270() {
   var element = document.getElementById("img270");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg271() {
@@ -10646,11 +11189,15 @@ function openimg271() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg272() {
   var element = document.getElementById("img272");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg273() {
@@ -10658,11 +11205,15 @@ function openimg273() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg274() {
   var element = document.getElementById("img274");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg275() {
@@ -10670,11 +11221,15 @@ function openimg275() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg276() {
   var element = document.getElementById("img276");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg277() {
@@ -10682,11 +11237,15 @@ function openimg277() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg278() {
   var element = document.getElementById("img278");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg279() {
@@ -10694,11 +11253,15 @@ function openimg279() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg280() {
   var element = document.getElementById("img280");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg281() {
@@ -10706,11 +11269,15 @@ function openimg281() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg282() {
   var element = document.getElementById("img282");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg283() {
@@ -10718,11 +11285,15 @@ function openimg283() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg284() {
   var element = document.getElementById("img284");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg285() {
@@ -10730,11 +11301,15 @@ function openimg285() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg286() {
   var element = document.getElementById("img286");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg287() {
@@ -10742,11 +11317,15 @@ function openimg287() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg288() {
   var element = document.getElementById("img288");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg289() {
@@ -10754,11 +11333,15 @@ function openimg289() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg290() {
   var element = document.getElementById("img290");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg291() {
@@ -10766,11 +11349,15 @@ function openimg291() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg292() {
   var element = document.getElementById("img292");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg293() {
@@ -10778,11 +11365,15 @@ function openimg293() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg294() {
   var element = document.getElementById("img294");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg295() {
@@ -10790,11 +11381,15 @@ function openimg295() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg296() {
   var element = document.getElementById("img296");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg297() {
@@ -10802,11 +11397,15 @@ function openimg297() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg298() {
   var element = document.getElementById("img298");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg299() {
@@ -10814,11 +11413,15 @@ function openimg299() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg300() {
   var element = document.getElementById("img300");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg301() {
@@ -10826,11 +11429,15 @@ function openimg301() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg302() {
   var element = document.getElementById("img302");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg303() {
@@ -10838,11 +11445,15 @@ function openimg303() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg304() {
   var element = document.getElementById("img304");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg305() {
@@ -10850,11 +11461,15 @@ function openimg305() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg306() {
   var element = document.getElementById("img306");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg307() {
@@ -10862,11 +11477,15 @@ function openimg307() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg308() {
   var element = document.getElementById("img308");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg309() {
@@ -10874,11 +11493,15 @@ function openimg309() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg310() {
   var element = document.getElementById("img310");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg311() {
@@ -10886,11 +11509,15 @@ function openimg311() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg312() {
   var element = document.getElementById("img312");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg313() {
@@ -10898,11 +11525,15 @@ function openimg313() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg314() {
   var element = document.getElementById("img314");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg315() {
@@ -10910,11 +11541,15 @@ function openimg315() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg316() {
   var element = document.getElementById("img316");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg317() {
@@ -10922,11 +11557,15 @@ function openimg317() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg318() {
   var element = document.getElementById("img318");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg319() {
@@ -10934,11 +11573,15 @@ function openimg319() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg320() {
   var element = document.getElementById("img320");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg321() {
@@ -10946,11 +11589,15 @@ function openimg321() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg322() {
   var element = document.getElementById("img322");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg323() {
@@ -10958,11 +11605,15 @@ function openimg323() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg324() {
   var element = document.getElementById("img324");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg325() {
@@ -10970,11 +11621,15 @@ function openimg325() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg326() {
   var element = document.getElementById("img326");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg327() {
@@ -10982,11 +11637,15 @@ function openimg327() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg328() {
   var element = document.getElementById("img328");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg329() {
@@ -10994,11 +11653,15 @@ function openimg329() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg330() {
   var element = document.getElementById("img330");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg331() {
@@ -11006,11 +11669,15 @@ function openimg331() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg332() {
   var element = document.getElementById("img332");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg333() {
@@ -11018,11 +11685,15 @@ function openimg333() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg334() {
   var element = document.getElementById("img334");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg335() {
@@ -11030,11 +11701,15 @@ function openimg335() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg336() {
   var element = document.getElementById("img336");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg337() {
@@ -11042,11 +11717,15 @@ function openimg337() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg338() {
   var element = document.getElementById("img338");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg339() {
@@ -11054,11 +11733,15 @@ function openimg339() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg340() {
   var element = document.getElementById("img340");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg341() {
@@ -11066,11 +11749,15 @@ function openimg341() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg342() {
   var element = document.getElementById("img342");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg343() {
@@ -11078,11 +11765,15 @@ function openimg343() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg344() {
   var element = document.getElementById("img344");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg345() {
@@ -11090,11 +11781,15 @@ function openimg345() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg346() {
   var element = document.getElementById("img346");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg347() {
@@ -11102,11 +11797,15 @@ function openimg347() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg348() {
   var element = document.getElementById("img348");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg349() {
@@ -11114,11 +11813,15 @@ function openimg349() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg350() {
   var element = document.getElementById("img350");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg351() {
@@ -11126,11 +11829,15 @@ function openimg351() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg352() {
   var element = document.getElementById("img352");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg353() {
@@ -11138,11 +11845,15 @@ function openimg353() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg354() {
   var element = document.getElementById("img354");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg355() {
@@ -11150,11 +11861,15 @@ function openimg355() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg356() {
   var element = document.getElementById("img356");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg357() {
@@ -11162,11 +11877,15 @@ function openimg357() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg358() {
   var element = document.getElementById("img358");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg359() {
@@ -11174,11 +11893,15 @@ function openimg359() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg360() {
   var element = document.getElementById("img360");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg361() {
@@ -11186,11 +11909,15 @@ function openimg361() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg362() {
   var element = document.getElementById("img362");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg363() {
@@ -11198,11 +11925,15 @@ function openimg363() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg364() {
   var element = document.getElementById("img364");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg365() {
@@ -11210,11 +11941,15 @@ function openimg365() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg366() {
   var element = document.getElementById("img366");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg367() {
@@ -11222,11 +11957,15 @@ function openimg367() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg368() {
   var element = document.getElementById("img368");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg369() {
@@ -11234,11 +11973,15 @@ function openimg369() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg370() {
   var element = document.getElementById("img370");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg371() {
@@ -11246,11 +11989,15 @@ function openimg371() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg372() {
   var element = document.getElementById("img372");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg373() {
@@ -11258,11 +12005,15 @@ function openimg373() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg374() {
   var element = document.getElementById("img374");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg375() {
@@ -11270,11 +12021,15 @@ function openimg375() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg376() {
   var element = document.getElementById("img376");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg377() {
@@ -11282,11 +12037,15 @@ function openimg377() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg378() {
   var element = document.getElementById("img378");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg379() {
@@ -11294,11 +12053,15 @@ function openimg379() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg380() {
   var element = document.getElementById("img380");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg381() {
@@ -11306,11 +12069,15 @@ function openimg381() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg382() {
   var element = document.getElementById("img382");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg383() {
@@ -11318,11 +12085,15 @@ function openimg383() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg384() {
   var element = document.getElementById("img384");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg385() {
@@ -11330,11 +12101,15 @@ function openimg385() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg386() {
   var element = document.getElementById("img386");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg387() {
@@ -11342,11 +12117,15 @@ function openimg387() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg388() {
   var element = document.getElementById("img388");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg389() {
@@ -11354,11 +12133,15 @@ function openimg389() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg390() {
   var element = document.getElementById("img390");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg391() {
@@ -11366,11 +12149,15 @@ function openimg391() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg392() {
   var element = document.getElementById("img392");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg393() {
@@ -11378,11 +12165,15 @@ function openimg393() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg394() {
   var element = document.getElementById("img394");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg395() {
@@ -11390,11 +12181,15 @@ function openimg395() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg396() {
   var element = document.getElementById("img396");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg397() {
@@ -11402,11 +12197,15 @@ function openimg397() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg398() {
   var element = document.getElementById("img398");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg399() {
@@ -11414,11 +12213,15 @@ function openimg399() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg400() {
   var element = document.getElementById("img400");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg401() {
@@ -11426,11 +12229,15 @@ function openimg401() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg402() {
   var element = document.getElementById("img402");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg403() {
@@ -11438,11 +12245,15 @@ function openimg403() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg404() {
   var element = document.getElementById("img404");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg405() {
@@ -11450,11 +12261,15 @@ function openimg405() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg406() {
   var element = document.getElementById("img406");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg407() {
@@ -11462,11 +12277,15 @@ function openimg407() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg408() {
   var element = document.getElementById("img408");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg409() {
@@ -11474,11 +12293,15 @@ function openimg409() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg410() {
   var element = document.getElementById("img410");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg411() {
@@ -11486,11 +12309,15 @@ function openimg411() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg412() {
   var element = document.getElementById("img412");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg413() {
@@ -11498,11 +12325,15 @@ function openimg413() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg414() {
   var element = document.getElementById("img414");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg415() {
@@ -11510,11 +12341,15 @@ function openimg415() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg416() {
   var element = document.getElementById("img416");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg417() {
@@ -11522,11 +12357,15 @@ function openimg417() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg418() {
   var element = document.getElementById("img418");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg419() {
@@ -11534,11 +12373,15 @@ function openimg419() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg420() {
   var element = document.getElementById("img420");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg421() {
@@ -11546,11 +12389,15 @@ function openimg421() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg422() {
   var element = document.getElementById("img422");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg423() {
@@ -11558,11 +12405,15 @@ function openimg423() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg424() {
   var element = document.getElementById("img424");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg425() {
@@ -11570,11 +12421,15 @@ function openimg425() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg426() {
   var element = document.getElementById("img426");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg427() {
@@ -11582,11 +12437,15 @@ function openimg427() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg428() {
   var element = document.getElementById("img428");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg429() {
@@ -11594,11 +12453,15 @@ function openimg429() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg430() {
   var element = document.getElementById("img430");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg431() {
@@ -11606,11 +12469,15 @@ function openimg431() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg432() {
   var element = document.getElementById("img432");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg433() {
@@ -11618,11 +12485,15 @@ function openimg433() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg434() {
   var element = document.getElementById("img434");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg435() {
@@ -11630,11 +12501,15 @@ function openimg435() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg436() {
   var element = document.getElementById("img436");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg437() {
@@ -11642,11 +12517,15 @@ function openimg437() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg438() {
   var element = document.getElementById("img438");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg439() {
@@ -11654,11 +12533,15 @@ function openimg439() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg440() {
   var element = document.getElementById("img440");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg441() {
@@ -11666,11 +12549,15 @@ function openimg441() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg442() {
   var element = document.getElementById("img442");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg443() {
@@ -11678,11 +12565,15 @@ function openimg443() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg444() {
   var element = document.getElementById("img444");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg445() {
@@ -11690,11 +12581,15 @@ function openimg445() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg446() {
   var element = document.getElementById("img446");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg447() {
@@ -11702,11 +12597,15 @@ function openimg447() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg448() {
   var element = document.getElementById("img448");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg449() {
@@ -11714,11 +12613,15 @@ function openimg449() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg450() {
   var element = document.getElementById("img450");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg451() {
@@ -11726,11 +12629,15 @@ function openimg451() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg452() {
   var element = document.getElementById("img452");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg453() {
@@ -11738,11 +12645,15 @@ function openimg453() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg454() {
   var element = document.getElementById("img454");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg455() {
@@ -11750,11 +12661,15 @@ function openimg455() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg456() {
   var element = document.getElementById("img456");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg457() {
@@ -11762,11 +12677,15 @@ function openimg457() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg458() {
   var element = document.getElementById("img458");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg459() {
@@ -11774,11 +12693,15 @@ function openimg459() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg460() {
   var element = document.getElementById("img460");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg461() {
@@ -11786,11 +12709,15 @@ function openimg461() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg462() {
   var element = document.getElementById("img462");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg463() {
@@ -11798,11 +12725,15 @@ function openimg463() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg464() {
   var element = document.getElementById("img464");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg465() {
@@ -11810,11 +12741,15 @@ function openimg465() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg466() {
   var element = document.getElementById("img466");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg467() {
@@ -11822,11 +12757,15 @@ function openimg467() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg468() {
   var element = document.getElementById("img468");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg469() {
@@ -11834,11 +12773,15 @@ function openimg469() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg470() {
   var element = document.getElementById("img470");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg471() {
@@ -11846,11 +12789,15 @@ function openimg471() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg472() {
   var element = document.getElementById("img472");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg473() {
@@ -11858,11 +12805,15 @@ function openimg473() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg474() {
   var element = document.getElementById("img474");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg475() {
@@ -11870,11 +12821,15 @@ function openimg475() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg476() {
   var element = document.getElementById("img476");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg477() {
@@ -11882,11 +12837,15 @@ function openimg477() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg478() {
   var element = document.getElementById("img478");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg479() {
@@ -11894,11 +12853,15 @@ function openimg479() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg480() {
   var element = document.getElementById("img480");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg481() {
@@ -11906,11 +12869,15 @@ function openimg481() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg482() {
   var element = document.getElementById("img482");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg483() {
@@ -11918,11 +12885,15 @@ function openimg483() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg484() {
   var element = document.getElementById("img484");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg485() {
@@ -11930,11 +12901,15 @@ function openimg485() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg486() {
   var element = document.getElementById("img486");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg487() {
@@ -11942,11 +12917,15 @@ function openimg487() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg488() {
   var element = document.getElementById("img488");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg489() {
@@ -11954,11 +12933,15 @@ function openimg489() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg490() {
   var element = document.getElementById("img490");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg491() {
@@ -11966,11 +12949,15 @@ function openimg491() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg492() {
   var element = document.getElementById("img492");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg493() {
@@ -11978,11 +12965,15 @@ function openimg493() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg494() {
   var element = document.getElementById("img494");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg495() {
@@ -11990,11 +12981,15 @@ function openimg495() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg496() {
   var element = document.getElementById("img496");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg497() {
@@ -12002,11 +12997,15 @@ function openimg497() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg498() {
   var element = document.getElementById("img498");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg499() {
@@ -12014,11 +13013,15 @@ function openimg499() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg500() {
   var element = document.getElementById("img500");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg501() {
@@ -12026,11 +13029,15 @@ function openimg501() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg502() {
   var element = document.getElementById("img502");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg503() {
@@ -12038,11 +13045,15 @@ function openimg503() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg504() {
   var element = document.getElementById("img504");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg505() {
@@ -12050,11 +13061,15 @@ function openimg505() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg506() {
   var element = document.getElementById("img506");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg507() {
@@ -12062,11 +13077,15 @@ function openimg507() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg508() {
   var element = document.getElementById("img508");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg509() {
@@ -12074,11 +13093,15 @@ function openimg509() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg510() {
   var element = document.getElementById("img510");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg511() {
@@ -12086,11 +13109,15 @@ function openimg511() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg512() {
   var element = document.getElementById("img512");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg513() {
@@ -12098,11 +13125,15 @@ function openimg513() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg514() {
   var element = document.getElementById("img514");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg515() {
@@ -12110,11 +13141,15 @@ function openimg515() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg516() {
   var element = document.getElementById("img516");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg517() {
@@ -12122,11 +13157,15 @@ function openimg517() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg518() {
   var element = document.getElementById("img518");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg519() {
@@ -12134,11 +13173,15 @@ function openimg519() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg520() {
   var element = document.getElementById("img520");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg521() {
@@ -12146,11 +13189,15 @@ function openimg521() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg522() {
   var element = document.getElementById("img522");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg523() {
@@ -12158,11 +13205,15 @@ function openimg523() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg524() {
   var element = document.getElementById("img524");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg525() {
@@ -12170,11 +13221,15 @@ function openimg525() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg526() {
   var element = document.getElementById("img526");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg527() {
@@ -12182,11 +13237,15 @@ function openimg527() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg528() {
   var element = document.getElementById("img528");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg529() {
@@ -12194,11 +13253,15 @@ function openimg529() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg530() {
   var element = document.getElementById("img530");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg531() {
@@ -12206,11 +13269,15 @@ function openimg531() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg532() {
   var element = document.getElementById("img532");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg533() {
@@ -12218,11 +13285,15 @@ function openimg533() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg534() {
   var element = document.getElementById("img534");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg535() {
@@ -12230,11 +13301,15 @@ function openimg535() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg536() {
   var element = document.getElementById("img536");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg537() {
@@ -12242,11 +13317,15 @@ function openimg537() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg538() {
   var element = document.getElementById("img538");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg539() {
@@ -12254,11 +13333,15 @@ function openimg539() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg540() {
   var element = document.getElementById("img540");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg541() {
@@ -12266,11 +13349,15 @@ function openimg541() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg542() {
   var element = document.getElementById("img542");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg543() {
@@ -12278,11 +13365,15 @@ function openimg543() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg544() {
   var element = document.getElementById("img544");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg545() {
@@ -12290,11 +13381,15 @@ function openimg545() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg546() {
   var element = document.getElementById("img546");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg547() {
@@ -12302,11 +13397,15 @@ function openimg547() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg548() {
   var element = document.getElementById("img548");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg549() {
@@ -12314,11 +13413,15 @@ function openimg549() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg550() {
   var element = document.getElementById("img550");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg551() {
@@ -12326,11 +13429,15 @@ function openimg551() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg552() {
   var element = document.getElementById("img552");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg553() {
@@ -12338,11 +13445,15 @@ function openimg553() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg554() {
   var element = document.getElementById("img554");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg555() {
@@ -12350,11 +13461,15 @@ function openimg555() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg556() {
   var element = document.getElementById("img556");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg557() {
@@ -12362,11 +13477,15 @@ function openimg557() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg558() {
   var element = document.getElementById("img558");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg559() {
@@ -12374,11 +13493,15 @@ function openimg559() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg560() {
   var element = document.getElementById("img560");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg561() {
@@ -12386,11 +13509,15 @@ function openimg561() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg562() {
   var element = document.getElementById("img562");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg563() {
@@ -12398,11 +13525,15 @@ function openimg563() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg564() {
   var element = document.getElementById("img564");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg565() {
@@ -12410,11 +13541,15 @@ function openimg565() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg566() {
   var element = document.getElementById("img566");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg567() {
@@ -12422,11 +13557,15 @@ function openimg567() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg568() {
   var element = document.getElementById("img568");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg569() {
@@ -12434,11 +13573,15 @@ function openimg569() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg570() {
   var element = document.getElementById("img570");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg571() {
@@ -12446,11 +13589,15 @@ function openimg571() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg572() {
   var element = document.getElementById("img572");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg573() {
@@ -12458,11 +13605,15 @@ function openimg573() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg574() {
   var element = document.getElementById("img574");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg575() {
@@ -12470,11 +13621,15 @@ function openimg575() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg576() {
   var element = document.getElementById("img576");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg577() {
@@ -12482,11 +13637,15 @@ function openimg577() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg578() {
   var element = document.getElementById("img578");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg579() {
@@ -12494,11 +13653,15 @@ function openimg579() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg580() {
   var element = document.getElementById("img580");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg581() {
@@ -12506,11 +13669,15 @@ function openimg581() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg582() {
   var element = document.getElementById("img582");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg583() {
@@ -12518,11 +13685,15 @@ function openimg583() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg584() {
   var element = document.getElementById("img584");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }
 function openimg585() {
@@ -12530,16 +13701,22 @@ function openimg585() {
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg586() {
   var element = document.getElementById("img586");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
   element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
+  element.classList.remove("closed");
 }
 function openimg587() {
   var element = document.getElementById("img587");
   element.classList.add("bigimg");
   var element = document.getElementById("back");
+  element.classList.remove("closed");
+  var element = document.getElementById("xbutton");
   element.classList.remove("closed");
 }

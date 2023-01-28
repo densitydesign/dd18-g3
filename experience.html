@@ -20,8 +20,10 @@
     <div id="preloader"></div>
     <!-------------------------- NAVBAR ---------------------------------------------------------------------->
     <div id="navbar">
-      <a href="index.html" id="titolo">⏩PLANT FORWARD</a>
-      <a href="index.html#secondpage" class="bottoncini" id="intro">INTRO</a>
+      <a href="index.html" onclick="paginauno()"id="titolo">⏩PLANT FORWARD</a>
+      <a href="index.html" onclick="paginadue()" class="bottoncini" id="intro"
+        >INTRO</a
+      >
       <a class="bottoncini" id="tutorial">TUTORIAL</a>
       <a href="about.html" class="bottoncini" id="about">ABOUT</a>
     </div>
@@ -453,6 +455,8 @@
           /> -->
           <source src="Assets/Morph_umani.mp4" type="video/mp4" />
         </video>
+
+        <div id="gradient"></div>
 
         <div>
           <a
@@ -3982,36 +3986,42 @@
             right: 0vw;
           "
         >
-          <div id="back" class="closed" onclick="backimg2()">
-            <div
-              style="
-                width: 7vh;
-                height: 7vh;
-                background: linear-gradient(
-                    to top left,
-                    rgba(0, 0, 0, 0) 0%,
-                    rgba(0, 0, 0, 0) calc(50% - 0.2vh),
-                    rgba(0, 200, 68, 1) 50%,
-                    rgba(0, 0, 0, 0) calc(50% + 0.2vh),
-                    rgba(0, 0, 0, 0) 100%
-                  ),
-                  linear-gradient(
-                    to top right,
-                    rgba(0, 0, 0, 0) 0%,
-                    rgba(0, 0, 0, 0) calc(50% - 0.2vh),
-                    rgba(0, 200, 68, 1) 50%,
-                    rgba(0, 0, 0, 0) calc(50% + 0.2vh),
-                    rgba(0, 0, 0, 0) 100%
-                  );
-                position: absolute;
-                top: 0vh;
-                right: 0vw;
-                border: 0.3vh solid;
-                border-color: #00c844;
-                background-color: white;
-              "
-            ></div>
-          </div>
+          <div id="back" class="closed"></div>
+
+          <div
+            id="xbutton"
+            onclick="backimg2()"
+            class="closed"
+            style="
+              width: 7vh;
+              height: 7vh;
+              background: linear-gradient(
+                  to top left,
+                  rgba(0, 0, 0, 0) 0%,
+                  rgba(0, 0, 0, 0) calc(50% - 0.2vh),
+                  rgba(0, 200, 68, 1) 50%,
+                  rgba(0, 0, 0, 0) calc(50% + 0.2vh),
+                  rgba(0, 0, 0, 0) 100%
+                ),
+                linear-gradient(
+                  to top right,
+                  rgba(0, 0, 0, 0) 0%,
+                  rgba(0, 0, 0, 0) calc(50% - 0.2vh),
+                  rgba(0, 200, 68, 1) 50%,
+                  rgba(0, 0, 0, 0) calc(50% + 0.2vh),
+                  rgba(0, 0, 0, 0) 100%
+                );
+              position: fixed;
+              top: 7.7vh;
+              left: 86.7vw;
+              z-index: 31;
+              border: 0.3vh solid;
+              transform: translate(-100%, 0%);
+              border-color: #00c844;
+              background-color: white;
+            "
+          ></div>
+
           <img
             class="images dotsimg"
             id="img1"
@@ -13660,14 +13670,14 @@
                   <div>Image with human presence</div>
                 </div>
 
-                <div class="keytitles" style="padding-top: 5vh">Phases:</div>
+                <div class="keytitles" style="padding-top: 3vh">Phases:</div>
 
                 <div class="keyelemets">
                   <div
                     class="phaseimg"
                     style="background-image: url(Assets/Icons/phase6.jpg)"
                   ></div>
-                  <div style="margin-top: 1.5vh">TIMBER</div>
+                  <div style="margin-top: 1vh">TIMBER</div>
                 </div>
 
                 <div class="keyelemets">
@@ -13675,7 +13685,7 @@
                     class="phaseimg"
                     style="background-image: url(Assets/Icons/phase5.jpg)"
                   ></div>
-                  <div style="margin-top: 1.5vh">FOREST</div>
+                  <div style="margin-top: 1vh">FOREST</div>
                 </div>
 
                 <div class="keyelemets">
@@ -13683,7 +13693,7 @@
                     class="phaseimg"
                     style="background-image: url(Assets/Icons/phase4.jpg)"
                   ></div>
-                  <div style="margin-top: 1.5vh">BOSCAGE</div>
+                  <div style="margin-top: 1vh">BOSCAGE</div>
                 </div>
 
                 <div class="keyelemets">
@@ -13691,7 +13701,7 @@
                     class="phaseimg"
                     style="background-image: url(Assets/Icons/phase3.jpg)"
                   ></div>
-                  <div style="margin-top: 1.5vh">TREE</div>
+                  <div style="margin-top: 1vh">TREE</div>
                 </div>
 
                 <div class="keyelemets">
@@ -13699,7 +13709,7 @@
                     class="phaseimg"
                     style="background-image: url(Assets/Icons/phase2.jpg)"
                   ></div>
-                  <div style="margin-top: 1.5vh">SAPLING</div>
+                  <div style="margin-top: 1vh">SAPLING</div>
                 </div>
 
                 <div class="keyelemets">
@@ -13707,13 +13717,13 @@
                     class="phaseimg"
                     style="background-image: url(Assets/Icons/phase1.jpg)"
                   ></div>
-                  <div style="margin-top: 1.5vh">WASTELAND</div>
+                  <div style="margin-top: 1vh">WASTELAND</div>
                 </div>
               </div>
 
-              <div class="keydivs">
-                <div class="keytitles">Filter:</div>
-                <div class="keyelements" style="margin-top: 3vh">
+              <div style="width: 20vw; margin-top: 2vh">
+                <div class="keytitles" style="height: 1vh">Filter:</div>
+                <div class="keyelements" style="margin-top: 4vh">
                   ALL IMAGES
                 </div>
                 <div class="keyelements">HUMAN PRESENCE</div>
@@ -13727,22 +13737,22 @@
               </div>
 
               <div class="keydivs">
-                <div style="margin-top: 3.4vh; height: 1.7vh">
+                <div style="margin-top: 5vh; height: 2vh">
                   ALL IMAGES shows both images containing and not containing
                   human presence.
                 </div>
 
-                <div style="margin-top: 12.6vh; height: 1.7vh">
+                <div style="margin-top: 12.8vh; height: 8vh">
                   HUMAN PRESENCE shows only those images that contain human
                   presence.
                 </div>
 
-                <div style="margin-top: 19.8vh; height: 1.7vh">
+                <div style="margin-top: 15.8vh; height: 2vh">
                   GROWTH VIEW retraces the growth of a forest through morphing
                   images
                 </div>
 
-                <div style="margin-top: 12.6vh; height: 1.7vh">
+                <div style="margin-top: 12.8vh; height: 2vh">
                   GALLERY VIEW offers a overview of the archive
                 </div>
               </div>

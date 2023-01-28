@@ -35,13 +35,19 @@ body {
   background-color: #ffffff;
 }
 
+::selection {
+  background-color: #00c844;
+  color: #ffffff;
+}
+
 .triggers {
   width: 100vw;
   height: 1px;
   display: block;
-  opacity: 1;
+  opacity: 0;
   border: rebeccapurple solid 1px;
   position: absolute;
+  pointer-events: none;
 }
 
 #preloader {
@@ -58,6 +64,43 @@ body {
   width: 100%;
   position: fixed;
   z-index: 100;
+}
+
+/* -- ---- -- ---- -- ---- -- FRECCINA E INDICATORI -- ---- -- ---- -- ---- -- */
+
+#tachipirina {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+#pallinispaziali {
+  position: absolute;
+  top: 50vh;
+  right: 2vw;
+  width: 2vw;
+  height: 20vh;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+}
+
+.pallinospaziale {
+  border: solid 2px #3e3e3e;
+  border-radius: 2vw;
+  width: 0.7vw;
+  height: 0.7vw;
+}
+
+.paginacorrente {
+  background-color: #00c844;
+}
+
+.altrepagine {
+  background-color: #ffffff;
 }
 
 /* -- ---- -- ---- -- ---- -- NAVBAR -- ---- -- ---- -- ---- -- */
@@ -141,6 +184,8 @@ body {
   width: 97vw;
   left: 3vw;
   scroll-behavior: smooth;
+  font-family: whyte;
+  font-weight: normal;
 }
 
 .pages {
@@ -210,10 +255,10 @@ body {
   font-family: whyte;
   font-weight: normal;
   color: #3e3e3e;
-  font-size: 4.8vw;
+  font-size: 7vh;
   width: 85vw;
   position: absolute;
-  line-height: 4.8vw;
+  line-height: 7vh;
 }
 
 #secondpage {
@@ -227,46 +272,157 @@ body {
   overflow: hidden;
   position: relative;
   text-transform: uppercase;
-  top: -12vh;
 }
 
 #atxt1 {
   position: relative;
   top: 10vh;
+  pointer-events: none;
 }
 
 #atxt2 {
   position: relative;
   top: 10vh;
+  pointer-events: none;
 }
 
 #atxt3 {
   position: relative;
   top: 10vh;
+  pointer-events: none;
 }
 
 #atxt4 {
   position: relative;
   top: 10vh;
+  pointer-events: none;
 }
 
 #atxt5 {
   position: relative;
   top: 10vh;
+  pointer-events: none;
 }
 
 #atxt6 {
   position: relative;
   top: 10vh;
+  pointer-events: none;
 }
 
 #atxt7 {
-  font-size: 3.8vw;
+  font-size: 5vh;
   position: relative;
   text-transform: none;
   color: #3e3e3e;
   top: 10vh;
   text-decoration: none;
+}
+
+/* -- ---- -- ---- -- ---- -- PAGE 3 -- ---- -- ---- -- ---- -- */
+
+#page3 {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  font-size: large;
+  pointer-events: none;
+  top: -100vh;
+  display: none;
+  justify-content: space-around;
+  left: 9vw;
+  font-size: 7vh;
+  width: 85vw;
+  color: #3e3e3e;
+  line-height: 7vh;
+}
+
+#frase1 {
+  position: absolute;
+  top: 50vh;
+  transform: translateY(-50%);
+}
+
+#atxt2_1 {
+  position: relative;
+  top: 0vh;
+}
+
+#atxt2_2 {
+  position: relative;
+  top: 0vh;
+}
+
+#frase2 {
+  position: absolute;
+  top: 50vh;
+  transform: translateY(-50%);
+}
+
+#atxt2_3 {
+  position: relative;
+  top: 10vh;
+}
+
+#frase3 {
+  position: absolute;
+  top: 50vh;
+  transform: translateY(-50%);
+}
+
+#atxt2_4 {
+  position: relative;
+  top: 10vh;
+}
+
+#atxt2_5 {
+  position: relative;
+  top: 10vh;
+}
+
+#frase4 {
+  position: absolute;
+  top: 50vh;
+  transform: translateY(-50%);
+}
+
+#atxt2_6 {
+  position: relative;
+  top: 10vh;
+}
+
+#atxt2_7 {
+  position: relative;
+  top: 10vh;
+}
+
+#atxt2_8 {
+  position: relative;
+  top: 10vh;
+}
+
+/* -- ---- -- ---- -- ---- -- PAGE 4 -- ---- -- ---- -- ---- -- */
+
+#page4 {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  font-size: large;
+  pointer-events: none;
+  top: -100vh;
+  display: none;
+  justify-content: space-around;
+  left: 9vw;
+  font-size: 7vh;
+  width: 85vw;
+  color: #3e3e3e;
+  line-height: 7vh;
+}
+
+#frasefasi {
+  position: absolute;
+  top: 50vh;
+  transform: translateY(-50%);
 }
 
 /* -- ---- -- ---- -- ---- -- TRIGGERS -- ---- -- ---- -- ---- -- */
@@ -281,25 +437,37 @@ body {
   height: 40vh;
 }
 
-.wrapper {
-  display: flex;
-  justify-content: center;
+#tthirddpagedisp {
+  top: -2vh;
+  height: 1px;
 }
 
-.item {
-  justify-content: center;
-  width: 200px;
-  height: 50px;
-  margin: 0vw;
-  position: relative;
-  text-align: center;
-  left: -2vw;
+#tthirddpage {
+  top: -100vh;
+  height: 100vh;
 }
 
-i {
-  color: #3e3e3e;
-  margin-left: 20px;
-  justify-content: center;
-  font-family: whyte;
-  font-size: 1.5vw;
+#tthirddpagef1out {
+  top: -180vh;
+  height: 60vh;
+}
+
+#tthirddpagef2out {
+  top: -280vh;
+  height: 130vh;
+}
+
+#tthirddpagef3out {
+  top: -380vh;
+  height: 120vh;
+}
+
+#tthirddpagef4in {
+  top: -400vh;
+  height: 80vh;
+}
+
+#tfourthpage {
+  top: -500vh;
+  height: 100vh;
 }

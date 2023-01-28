@@ -42,6 +42,11 @@ body {
   z-index: 100;
 }
 
+::selection {
+  background-color: #00c844;
+  color: #ffffff;
+}
+
 /* -- ---- -- ---- -- ---- -- NAVBAR -- ---- -- ---- -- ---- -- */
 
 #navbar {
@@ -111,13 +116,13 @@ body {
 /* -- ---- -- ---- -- ---- -- EXPERIENCE ENVIRONMENT -- ---- -- ---- -- ---- -- */
 
 #map {
-  position: absolute;
+  position: fixed;
   left: 3vw;
   width: 38vw;
   height: 100vh;
   overflow: hidden;
-  /* pointer-events: none; */
-  z-index: 3;
+  pointer-events: none;
+  z-index: 10;
 }
 
 #toggles {
@@ -188,17 +193,18 @@ body {
 }
 
 #scroller {
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column-reverse;
   overflow: auto;
   overflow-x: clip;
   right: 3vw;
-  width: 53vw;
+  width: 93vw;
   height: 100vh;
   overflow: scroll;
   opacity: 0;
   z-index: 4;
+  scrollbar-width: none;
 }
 
 #scrollerhuman {
@@ -239,6 +245,7 @@ body {
   border: #00c844 solid 0.13vw;
   transition-duration: 0.5s;
   z-index: 30;
+  pointer-events: auto;
 }
 
 .human {
@@ -250,6 +257,7 @@ body {
   border: #00c844 solid 0.2vw;
   transition-duration: 0.5s;
   z-index: 30;
+  pointer-events: auto;
 }
 
 #cursor {
@@ -518,7 +526,6 @@ body {
 .images {
   position: relative;
   height: 10vh;
-  transition-duration: 0.2s;
 }
 
 #back {
@@ -532,28 +539,44 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+#back:hover {
+  cursor: url("Assets/Icons/pointer.jpg"), auto;
+}
+
 .closed {
   display: none;
 }
 
 .bigimg {
   position: fixed;
-  z-index: 10;
+  z-index: 30;
   top: 50vh;
   left: 50vw;
-  width: auto;
-  height: 60%;
+  object-fit: contain;
+  height: 80vh;
+  width: 70vw;
   transform: translate(-50%, -50%);
-  border: 0.3vh solid;
-  border-color: #00c844;
-  padding: 2vh;
-  background-color: #ffffff;
+  pointer-events: none;
+  background-color: #fff;
+  border: 0.3vh solid #00c844;
+  padding-bottom: 2vh;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
 }
 
 /* -- ---- -- ---- -- ---- -- SOURCES -- ---- -- ---- -- ---- -- */
 
+#gradient {
+  background-image: url(Assets/gradient.png);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 13vh;
+  position: absolute;
+  bottom: 0vh;
+}
+
 .source {
-  color: #ffffff;
+  color: #3e3e3e;
   position: absolute;
   height: 1vw;
   top: 95vh;
@@ -561,8 +584,7 @@ body {
   text-align: center;
   left: 2vw;
   font-family: whyte;
-  font-size: 1.7vw;
-  font-style: italic;
+  font-size: 1.6vw;
   text-decoration: none;
   z-index: 20;
 }
@@ -626,7 +648,7 @@ body {
   border-bottom: 0.3vh solid;
   border-bottom-color: #00c844;
   font-family: whyte;
-  font-size: 1.7vh;
+  font-size: 2vh;
 }
 
 #containerbuttons {
@@ -665,13 +687,13 @@ body {
   display: flex;
   flex-direction: column;
   width: 20vw;
-  margin-top: 4vh;
+  margin-top: 2vh;
   margin-bottom: 5vh;
 }
 
 .keyelemets {
   display: flex;
-  margin-top: 2vh;
+  margin-top: 1.8vh;
 }
 
 .keytitles {

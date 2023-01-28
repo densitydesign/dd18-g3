@@ -17,16 +17,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.8.2/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/CustomEase.min.js"></script>
   </head>
 
   <body>
     <div id="p5_loading"></div>
     <div id="preloader"></div>
+
+    <div id="tachipirina">
+      <div id="pallinispaziali">
+        <div id="pall1" class="pallinospaziale paginacorrente"></div>
+        <div id="pall2" class="pallinospaziale altrepagine"></div>
+        <div id="pall3" class="pallinospaziale altrepagine"></div>
+        <div id="pall4" class="pallinospaziale altrepagine"></div>
+        <div id="pall5" class="pallinospaziale altrepagine"></div>
+        <div id="pall6" class="pallinospaziale altrepagine"></div>
+      </div>
+    </div>
     <!-------------------------- NAVBAR ---------------------------------------------------------------------->
     <div id="navbar">
-      <a href="" id="titolo">⏩PLANT FORWARD</a>
-      <a href="index.html#secondpage" class="bottoncini" id="intro">INTRO</a>
+      <a href="" onclick="paginauno()" id="titolo">⏩PLANT FORWARD</a>
+      <a href="index.html" onclick="paginadue()" class="bottoncini" id="intro"
+        >INTRO</a
+      >
       <a href="experience.html" class="bottoncini" id="archive">ARCHIVE</a>
       <a href="about.html" class="bottoncini" id="about">ABOUT</a>
     </div>
@@ -97,11 +110,109 @@
           </div>
         </div>
       </div>
+      <div class="pages">
+        <div class="content" id="thirdpage"></div>
+      </div>
+      <div class="pages">
+        <div class="content"></div>
+      </div>
+      <div class="pages">
+        <div class="content"></div>
+      </div>
+      <div class="pages">
+        <div class="content"></div>
+      </div>
+      <div class="pages">
+        <div class="content" id="fourthpage"></div>
+      </div>
+
+      <!-------------------------- PAGE 3 ---------------------------------------------------------------------->
+
+      <div id="page3">
+        <div id="frase1">
+          <div class="atxt">
+            <a id="atxt2_1"> Reforestation is an </a>
+          </div>
+          <div class="atxt">
+            <a id="atxt2_2">
+              inherently <span style="color: #00c844">human</span> activity
+            </a>
+          </div>
+        </div>
+
+        <div id="frase2">
+          <div class="atxt">
+            <a id="atxt2_3">
+              carried out by <span style="color: #00c844">humans</span>
+            </a>
+          </div>
+        </div>
+
+        <div id="frase3">
+          <div class="atxt">
+            <a id="atxt2_4"> to repair damage caused </a>
+          </div>
+          <div class="atxt">
+            <a id="atxt2_5"> by <span style="color: #00c844">humans</span> </a>
+          </div>
+        </div>
+
+        <div id="frase4">
+          <div class="atxt">
+            <a id="atxt2_6">
+              requiring <span style="color: #00c844">humans</span>
+            </a>
+          </div>
+          <div class="atxt">
+            <a id="atxt2_7"> intervention throughout </a>
+          </div>
+          <div class="atxt">
+            <a id="atxt2_8"> all phases of growth </a>
+          </div>
+        </div>
+      </div>
+
+      <!-------------------------- PAGE 4 ---------------------------------------------------------------------->
+
+      <div id="page4">
+        <div id="frasefasi">
+          <div class="atxt">
+            <a id="atxt3_1"> from the reclamation of a </a>
+          </div>
+
+          <div class="atxt">
+            <a id="atxt3_2"
+              ><span style="color: #00c844">Wasteland</span> to a thriving
+            </a>
+          </div>
+
+          <div class="atxt">
+            <a id="atxt3_3"
+              ><span style="color: #00c844">forest</span>, and then, eventually,
+            </a>
+          </div>
+
+          <div class="atxt">
+            <a id="atxt3_4"
+              >its <span style="color: #00c844">logging</span>.
+            </a>
+          </div>
+        </div>
+      </div>
 
       <!-------------------------- SCROLLITELLING TRIGGERS & PAGE POSITIONERS ---------------------------------------------------------------------->
 
       <div class="triggers" id="tshowbar"></div>
       <div class="triggers" id="tsecondpage"></div>
+
+      <div class="triggers" id="tthirddpagedisp"></div>
+      <div class="triggers" id="tthirddpage"></div>
+      <div class="triggers" id="tthirddpagef1out"></div>
+      <div class="triggers" id="tthirddpagef2out"></div>
+      <div class="triggers" id="tthirddpagef3out"></div>
+      <div class="triggers" id="tthirddpagef4in"></div>
+
+      <div class="triggers" id="tfourthpage"></div>
     </div>
 
     <!-------------------------- SCRIPT ---------------------------------------------------------------------->
@@ -118,8 +229,15 @@
 
     <script>
       window.onload = function () {
-        var element = document.getElementById("firstpage");
-        element.scrollIntoView();
+        if (paginadiarrivo == 1) {
+          console.log("hey");
+          var element = document.getElementById("firstpage");
+          element.scrollIntoView();
+          paginadiarrivo = 2;
+        } else if (paginadiarrivo == 2) {
+          var element = document.getElementById("secondpage");
+          element.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
       };
     </script>
   </body>

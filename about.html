@@ -13,8 +13,10 @@
   <body>
     <!-------------------------- NAVBAR ---------------------------------------------------------------------->
     <div id="navbar">
-      <a href="index.html" id="titolo">⏩PLANT FORWARD</a>
-      <a href="index.html#secondpage" class="bottoncini" id="intro">INTRO</a>
+      <a href="index.html" onclick="paginauno()" id="titolo">⏩PLANT FORWARD</a>
+      <a href="index.html" onclick="paginadue()" class="bottoncini" id="intro"
+        >INTRO</a
+      >
       <a href="experience.html" class="bottoncini" id="archive">ARCHIVE</a>
       <a href="about.html" class="bottoncini" id="about">ABOUT</a>
     </div>
@@ -637,6 +639,18 @@
         } else {
           offset3.classList.add("stick3");
         }
+      }
+    </script>
+
+    <script>
+      let paginadiarrivo = 1;
+
+      function paginadue() {
+        paginadiarrivo = 2;
+      }
+
+      function paginauno() {
+        paginadiarrivo = 1;
       }
     </script>
   </body>
