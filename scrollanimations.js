@@ -27,10 +27,13 @@ let freccia = function (f) {
     y = f.mouseY;
     f.imageMode(f.CENTER);
     f.angleMode(f.DEGREES);
+
+    console.log(
+      "DD18 - density design final synthesis studio a.a. 2022-2023 - Politecnico di Milano - Design della Comunicazione - Gruppo 03"
+    );
   };
 
   f.draw = function () {
-    console.log(f.windowWidth);
     f.clear();
     f.fill(255);
 
@@ -45,7 +48,7 @@ let freccia = function (f) {
     if (pagina == 1) {
       if (diam < 100 && f.frameCount > 200) {
         diam += 10;
-      } else if (diam == 100) {
+      } else if (diam > 90) {
         if (f.mouseIsPressed == true) {
           var element = document.getElementById("secondpage");
           element.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -311,7 +314,6 @@ let thirdpagedisplay = gsap
       end: "bottom bottom",
       toggleActions: "none none reverse none",
       scrub: true,
-      onEnterBack: () => console.log("bomba"),
     },
   })
   .from(
