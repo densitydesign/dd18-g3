@@ -600,6 +600,10 @@
     </script>
 
     <script>
+      window.onresize = function () {
+        location.reload();
+      };
+
       window.onload = function () {
         if (paginadiarrivo == 1) {
           var element = document.getElementById("firstpage");

@@ -388,7 +388,7 @@ let frase1out = gsap
   .from(
     "#atxt2_2",
     {
-      top: "-10vh",
+      top: "10vh",
       ease: CustomEase.create(
         "custom",
         "M0,0 C0.084,0.257 0.204,0.5 0.4,0.5 0.5,0.5 0.5,0.5 0.6,0.5 0.804,0.5 0.818,1.001 1,1 "
@@ -399,7 +399,7 @@ let frase1out = gsap
   .from(
     "#atxt2_1",
     {
-      top: "-10vh",
+      top: "10vh",
       ease: CustomEase.create(
         "custom",
         "M0,0 C0.084,0.257 0.204,0.5 0.4,0.5 0.5,0.5 0.5,0.5 0.6,0.5 0.804,0.5 0.818,1.001 1,1 "
@@ -421,7 +421,7 @@ let frase2out = gsap
     },
   })
   .from("#atxt2_3", {
-    top: "-10vh",
+    top: "10vh",
     ease: CustomEase.create(
       "custom",
       "M0,0 C0.084,0.257 0.204,0.5 0.4,0.5 0.5,0.5 0.5,0.5 0.6,0.5 0.804,0.5 0.818,1.001 1,1 "
@@ -443,7 +443,7 @@ let frase3out = gsap
   .from(
     "#atxt2_5",
     {
-      top: "-10vh",
+      top: "10vh",
       ease: CustomEase.create(
         "custom",
         "M0,0 C0.084,0.257 0.204,0.5 0.4,0.5 0.5,0.5 0.5,0.5 0.6,0.5 0.804,0.5 0.818,1.001 1,1 "
@@ -454,7 +454,7 @@ let frase3out = gsap
   .from(
     "#atxt2_4",
     {
-      top: "-10vh",
+      top: "10vh",
       ease: CustomEase.create(
         "custom",
         "M0,0 C0.084,0.257 0.204,0.5 0.4,0.5 0.5,0.5 0.5,0.5 0.6,0.5 0.804,0.5 0.818,1.001 1,1 "
