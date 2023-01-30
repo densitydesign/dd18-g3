@@ -10,6 +10,10 @@ let angle;
 let cnv2;
 let pagina = 1;
 let counter;
+let cnv;
+let img = [];
+let index;
+let x;
 
 let freccia = function (f) {
   f.preload = function () {
@@ -26,6 +30,7 @@ let freccia = function (f) {
   };
 
   f.draw = function () {
+    console.log(f.windowWidth);
     f.clear();
     f.fill(255);
 
@@ -52,7 +57,7 @@ let freccia = function (f) {
       }
     }
 
-    velocity = f.round(f.dist(X, y, f.mouseX, f.mouseY));
+    velocity = f.round(f.dist(X, 0, f.mouseX, 0));
     angle = f.map(velocity, 0, 500, 0, 60);
 
     if (f.mouseX < X) {
@@ -71,11 +76,6 @@ let freccia = function (f) {
 };
 
 let frecciaanimation = new p5(freccia);
-
-let cnv;
-let img = [];
-let index;
-let x;
 
 let initialanimation = function (ia) {
   ia.preload = function () {
@@ -212,11 +212,6 @@ let atxt1 = gsap
       scrub: true,
       onEnterBack: () => {
         pagina = 2;
-        var element = document.getElementById("pall1");
-        element.classList.remove("paginacorrente");
-
-        var element = document.getElementById("pall1");
-        element.classList.add("altrepagine");
 
         var element = document.getElementById("pall2");
         element.classList.add("paginacorrente");
@@ -226,11 +221,6 @@ let atxt1 = gsap
       },
       onLeaveBack: () => {
         pagina = 2;
-        var element = document.getElementById("pall1");
-        element.classList.remove("paginacorrente");
-
-        var element = document.getElementById("pall1");
-        element.classList.add("altrepagine");
 
         var element = document.getElementById("pall2");
         element.classList.add("paginacorrente");
@@ -240,11 +230,15 @@ let atxt1 = gsap
       },
       onEnter: () => {
         pagina = 1;
-        var element = document.getElementById("pall1");
-        element.classList.add("paginacorrente");
 
-        var element = document.getElementById("pall1");
-        element.classList.remove("altrepagine");
+        var element = document.getElementById("pall2");
+        element.classList.remove("paginacorrente");
+
+        var element = document.getElementById("pall2");
+        element.classList.add("altrepagine");
+      },
+      onLeave: () => {
+        pagina = 1;
 
         var element = document.getElementById("pall2");
         element.classList.remove("paginacorrente");
@@ -335,6 +329,34 @@ let thirdpage = gsap
       end: "bottom bottom",
       toggleActions: "restart none reverse none",
       scrub: true,
+      onEnterBack: () => {
+        var element = document.getElementById("pall3");
+        element.classList.add("paginacorrente");
+
+        var element = document.getElementById("pall3");
+        element.classList.remove("altrepagine");
+      },
+      onLeaveBack: () => {
+        var element = document.getElementById("pall3");
+        element.classList.add("paginacorrente");
+
+        var element = document.getElementById("pall3");
+        element.classList.remove("altrepagine");
+      },
+      onEnter: () => {
+        var element = document.getElementById("pall3");
+        element.classList.remove("paginacorrente");
+
+        var element = document.getElementById("pall3");
+        element.classList.add("altrepagine");
+      },
+      onLeave: () => {
+        var element = document.getElementById("pall3");
+        element.classList.remove("paginacorrente");
+
+        var element = document.getElementById("pall3");
+        element.classList.add("altrepagine");
+      },
     },
   })
   .from(
@@ -362,6 +384,10 @@ let frase1out = gsap
     "#atxt2_2",
     {
       top: "-10vh",
+      ease: CustomEase.create(
+        "custom",
+        "M0,0 C0.084,0.257 0.204,0.5 0.4,0.5 0.5,0.5 0.5,0.5 0.6,0.5 0.804,0.5 0.818,1.001 1,1 "
+      ),
     },
     "<0.1"
   )
@@ -369,6 +395,10 @@ let frase1out = gsap
     "#atxt2_1",
     {
       top: "-10vh",
+      ease: CustomEase.create(
+        "custom",
+        "M0,0 C0.084,0.257 0.204,0.5 0.4,0.5 0.5,0.5 0.5,0.5 0.6,0.5 0.804,0.5 0.818,1.001 1,1 "
+      ),
     },
     "<0.1"
   );
@@ -494,6 +524,545 @@ let thirdpageout = gsap
     {
       top: "0vh",
       ease: "none",
+    },
+    0
+  )
+  .from(
+    "#page4palloz",
+    {
+      display: "flex",
+    },
+    0
+  );
+
+let page4in = gsap
+  .timeline({
+    scrollTrigger: {
+      scroller: "#container",
+      trigger: "#tfourthpagein",
+      markers: false,
+      start: "top bottom",
+      end: "bottom bottom",
+      toggleActions: "restart none reverse none",
+      scrub: true,
+      onEnterBack: () => {
+        var element = document.getElementById("pall4");
+        element.classList.add("paginacorrente");
+
+        var element = document.getElementById("pall4");
+        element.classList.remove("altrepagine");
+      },
+      onLeaveBack: () => {
+        var element = document.getElementById("pall4");
+        element.classList.add("paginacorrente");
+
+        var element = document.getElementById("pall4");
+        element.classList.remove("altrepagine");
+      },
+      onEnter: () => {
+        var element = document.getElementById("pall4");
+        element.classList.remove("paginacorrente");
+
+        var element = document.getElementById("pall4");
+        element.classList.add("altrepagine");
+      },
+      onLeave: () => {
+        var element = document.getElementById("pall4");
+        element.classList.remove("paginacorrente");
+
+        var element = document.getElementById("pall4");
+        element.classList.add("altrepagine");
+      },
+    },
+  })
+  .from(
+    "#atxt3_1",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  )
+  .from(
+    "#atxt3_2",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  )
+  .from(
+    "#atxt3_3",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  )
+  .from(
+    "#atxt3_4",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  );
+
+let fourthpagepalloz = gsap
+  .timeline({
+    scrollTrigger: {
+      scroller: "#container",
+      trigger: "#tfourthpagepalloz",
+      markers: false,
+      start: "top bottom",
+      end: "bottom bottom",
+      toggleActions: "restart none reverse none",
+      scrub: true,
+    },
+  })
+  .from(
+    "#page4palloz",
+    {
+      top: "0vh",
+      ease: "none",
+    },
+    0
+  );
+
+let palloz2 = gsap
+  .timeline({
+    scrollTrigger: {
+      scroller: "#container",
+      trigger: "#tfourthpagep2",
+      markers: false,
+      start: "top bottom",
+      end: "bottom bottom",
+      toggleActions: "restart none reverse none",
+      scrub: true,
+    },
+  })
+  .from(
+    "#palloz2",
+    {
+      top: "0vh",
+      ease: "none",
+    },
+    0
+  );
+
+let palloz3 = gsap
+  .timeline({
+    scrollTrigger: {
+      scroller: "#container",
+      trigger: "#tfourthpagep3",
+      markers: false,
+      start: "top bottom",
+      end: "bottom bottom",
+      toggleActions: "restart none reverse none",
+      scrub: true,
+    },
+  })
+  .from(
+    "#palloz3",
+    {
+      top: "0vh",
+      ease: "none",
+    },
+    0
+  );
+
+let palloz4 = gsap
+  .timeline({
+    scrollTrigger: {
+      scroller: "#container",
+      trigger: "#tfourthpagep4",
+      markers: false,
+      start: "top bottom",
+      end: "bottom bottom",
+      toggleActions: "restart none reverse none",
+      scrub: true,
+    },
+  })
+  .from(
+    "#palloz4",
+    {
+      top: "0vh",
+      ease: "none",
+    },
+    0
+  );
+
+let palloz5 = gsap
+  .timeline({
+    scrollTrigger: {
+      scroller: "#container",
+      trigger: "#tfourthpagep5",
+      markers: false,
+      start: "top bottom",
+      end: "bottom bottom",
+      toggleActions: "restart none reverse none",
+      scrub: true,
+    },
+  })
+  .from(
+    "#palloz5",
+    {
+      top: "0vh",
+      ease: "none",
+    },
+    0
+  );
+
+let palloz6 = gsap
+  .timeline({
+    scrollTrigger: {
+      scroller: "#container",
+      trigger: "#tfourthpagep6",
+      markers: false,
+      start: "top bottom",
+      end: "bottom bottom",
+      toggleActions: "restart none reverse none",
+      scrub: true,
+    },
+  })
+  .from(
+    "#palloz6",
+    {
+      top: "0vh",
+      ease: "none",
+    },
+    0
+  );
+
+let fifthpage = gsap
+  .timeline({
+    scrollTrigger: {
+      scroller: "#container",
+      trigger: "#tfifthpage",
+      markers: false,
+      start: "top bottom",
+      end: "bottom bottom",
+      toggleActions: "restart none reverse none",
+      scrub: true,
+      onEnterBack: () => {
+        var element = document.getElementById("pall5");
+        element.classList.add("paginacorrente");
+
+        var element = document.getElementById("pall5");
+        element.classList.remove("altrepagine");
+      },
+      onLeaveBack: () => {
+        var element = document.getElementById("pall5");
+        element.classList.add("paginacorrente");
+
+        var element = document.getElementById("pall5");
+        element.classList.remove("altrepagine");
+      },
+      onEnter: () => {
+        var element = document.getElementById("pall5");
+        element.classList.remove("paginacorrente");
+
+        var element = document.getElementById("pall5");
+        element.classList.add("altrepagine");
+      },
+      onLeave: () => {
+        var element = document.getElementById("pall5");
+        element.classList.remove("paginacorrente");
+
+        var element = document.getElementById("pall5");
+        element.classList.add("altrepagine");
+      },
+    },
+  })
+  .from(
+    "#page4out",
+    {
+      display: "block",
+    },
+    0
+  )
+  .from(
+    "#page4palloz2",
+    {
+      display: "flex",
+    },
+    0
+  )
+  .from(
+    "#page4out",
+    {
+      top: "100vh",
+      ease: "none",
+    },
+    0
+  )
+  .from(
+    "#page4palloz2",
+    {
+      top: "100vh",
+      ease: "none",
+    },
+    0
+  );
+
+let fifthpaged = gsap
+  .timeline({
+    scrollTrigger: {
+      scroller: "#container",
+      trigger: "#tfifthpaged",
+      markers: false,
+      start: "top bottom",
+      end: "bottom bottom",
+      toggleActions: "restart none reverse none",
+      scrub: true,
+    },
+  })
+  .from(
+    "#page4",
+    {
+      display: "none",
+    },
+    0
+  )
+  .from(
+    "#page4palloz",
+    {
+      display: "none",
+    },
+    0
+  );
+
+let frasegoogle = gsap
+  .timeline({
+    scrollTrigger: {
+      scroller: "#container",
+      trigger: "#tfifthpagetext",
+      markers: false,
+      start: "top bottom",
+      end: "bottom bottom",
+      toggleActions: "restart none reverse none",
+      scrub: true,
+    },
+  })
+  .from(
+    "#atxt4_1",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  )
+  .from(
+    "#atxt4_2",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  )
+  .from(
+    "#atxt4_3",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  )
+  .from(
+    "#atxt4_4",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  )
+  .from(
+    "#atxt4_5",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  )
+  .from(
+    "#atxt4_6",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  );
+
+let frase6 = gsap
+  .timeline({
+    scrollTrigger: {
+      scroller: "#container",
+      trigger: "#tsixthpage",
+      markers: false,
+      start: "top bottom",
+      end: "bottom bottom",
+      toggleActions: "restart none reverse none",
+      scrub: true,
+      onEnterBack: () => {
+        var element = document.getElementById("pall6");
+        element.classList.add("paginacorrente");
+
+        var element = document.getElementById("pall6");
+        element.classList.remove("altrepagine");
+      },
+      onLeaveBack: () => {
+        var element = document.getElementById("pall6");
+        element.classList.add("paginacorrente");
+
+        var element = document.getElementById("pall6");
+        element.classList.remove("altrepagine");
+      },
+      onEnter: () => {
+        var element = document.getElementById("pall6");
+        element.classList.remove("paginacorrente");
+
+        var element = document.getElementById("pall6");
+        element.classList.add("altrepagine");
+      },
+      onLeave: () => {
+        var element = document.getElementById("pall6");
+        element.classList.remove("paginacorrente");
+
+        var element = document.getElementById("pall6");
+        element.classList.add("altrepagine");
+      },
+    },
+  })
+  .from(
+    "#atxt5_1",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  )
+  .from(
+    "#atxt5_2",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  )
+  .from(
+    "#atxt5_3",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  )
+  .from(
+    "#atxt5_4",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  )
+  .from(
+    "#atxt5_5",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  );
+
+let frase7 = gsap
+  .timeline({
+    scrollTrigger: {
+      scroller: "#container",
+      trigger: "#tseventhpage",
+      markers: false,
+      start: "top bottom",
+      end: "bottom bottom",
+      toggleActions: "restart none reverse none",
+      scrub: true,
+    },
+  })
+  .from(
+    "#atxt6_1",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  )
+  .from(
+    "#atxt6_2",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  )
+  .from(
+    "#atxt6_3",
+    {
+      top: "0vh",
+    },
+    "<0.1"
+  );
+
+let pallinoultimo = gsap.timeline({
+  scrollTrigger: {
+    scroller: "#container",
+    trigger: "#tpallimg",
+    markers: false,
+    start: "top bottom",
+    end: "bottom bottom",
+    toggleActions: "restart none reverse none",
+    scrub: true,
+    onEnterBack: () => {
+      var element = document.getElementById("pall7");
+      element.classList.add("paginacorrente");
+
+      var element = document.getElementById("pall7");
+      element.classList.remove("altrepagine");
+    },
+    onLeaveBack: () => {
+      var element = document.getElementById("pall7");
+      element.classList.add("paginacorrente");
+
+      var element = document.getElementById("pall7");
+      element.classList.remove("altrepagine");
+    },
+    onEnter: () => {
+      var element = document.getElementById("pall7");
+      element.classList.remove("paginacorrente");
+
+      var element = document.getElementById("pall7");
+      element.classList.add("altrepagine");
+    },
+    onLeave: () => {
+      var element = document.getElementById("pall7");
+      element.classList.remove("paginacorrente");
+
+      var element = document.getElementById("pall7");
+      element.classList.add("altrepagine");
+    },
+  },
+});
+
+let testo = gsap.from("#testo", {
+  x: -3000,
+  duration: 30,
+  repeat: -1,
+  ease: "none",
+});
+
+let immagini = gsap
+  .timeline({
+    scrollTrigger: {
+      scroller: "#container",
+      trigger: "#timmagini",
+      markers: false,
+      start: "top bottom",
+      end: "bottom bottom",
+      toggleActions: "restart none reverse none",
+      scrub: true,
+    },
+  })
+  .from(
+    ".colonnasu",
+    {
+      top: "-100vh",
+    },
+    0
+  )
+  .from(
+    ".colonnagiu",
+    {
+      bottom: "-100vh",
     },
     0
   );
