@@ -44,7 +44,7 @@ body {
   width: 100vw;
   height: 1px;
   display: block;
-  opacity: 0;
+  opacity: 1;
   border: rebeccapurple solid 1px;
   position: absolute;
   pointer-events: none;
@@ -1110,5 +1110,11 @@ body {
 #timmagini {
   top: -1500vh;
   height: 400vh;
+}
+
+#tpallimgdots {
+  top: -1480vh;
+  height: 10vh;
   border-color: crimson;
+  border-radius: 10vh;
 }

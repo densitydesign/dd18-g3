@@ -1036,6 +1036,19 @@ let pallinoultimo = gsap.timeline({
   },
 });
 
+let scompare = gsap.from(".pallinospaziale", {
+  scrollTrigger: {
+    scroller: "#container",
+    trigger: "#tpallimgdots",
+    markers: false,
+    start: "top bottom",
+    end: "bottom bottom",
+    toggleActions: "restart none reverse none",
+    scrub: true,
+  },
+  opacity: 0,
+});
+
 let testo = gsap.from("#testo", {
   x: -3000,
   duration: 30,
