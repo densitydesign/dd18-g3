@@ -43,9 +43,9 @@ let freccia = function (f) {
     y += dy * easing;
 
     if (pagina == 1) {
-      if (diam < 150 && f.frameCount > 200) {
+      if (diam < 100 && f.frameCount > 200) {
         diam += 10;
-      } else if (diam == 150) {
+      } else if (diam == 100) {
         if (f.mouseIsPressed == true) {
           var element = document.getElementById("secondpage");
           element.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -54,6 +54,9 @@ let freccia = function (f) {
     } else if (pagina == 2) {
       if (diam > 10) {
         diam -= 10;
+        if (diam == 10) {
+          diam = 0.1;
+        }
       }
     }
 
@@ -155,7 +158,7 @@ gsap.from("#coperchio1", {
     scrub: true,
   },
   left: "0vw",
-  ease: "power2.out",
+  ease: "power4.out",
 });
 
 gsap.from("#titolone", {
@@ -195,7 +198,7 @@ gsap.from("#coperchio2", {
     scrub: true,
   },
   left: "-100vw",
-  ease: "power2.out",
+  ease: "power4.out",
 });
 
 //------------------------ SCROLLITELLING ------------------------------------------------------------
@@ -253,49 +256,49 @@ let atxt1 = gsap
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt2",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt3",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt4",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt5",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt6",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt7",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   );
 
 let thirdpagedisplay = gsap
@@ -389,7 +392,7 @@ let frase1out = gsap
         "M0,0 C0.084,0.257 0.204,0.5 0.4,0.5 0.5,0.5 0.5,0.5 0.6,0.5 0.804,0.5 0.818,1.001 1,1 "
       ),
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt2_1",
@@ -400,7 +403,7 @@ let frase1out = gsap
         "M0,0 C0.084,0.257 0.204,0.5 0.4,0.5 0.5,0.5 0.5,0.5 0.6,0.5 0.804,0.5 0.818,1.001 1,1 "
       ),
     },
-    "<0.1"
+    0
   );
 
 let frase2out = gsap
@@ -444,7 +447,7 @@ let frase3out = gsap
         "M0,0 C0.084,0.257 0.204,0.5 0.4,0.5 0.5,0.5 0.5,0.5 0.6,0.5 0.804,0.5 0.818,1.001 1,1 "
       ),
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt2_4",
@@ -455,7 +458,7 @@ let frase3out = gsap
         "M0,0 C0.084,0.257 0.204,0.5 0.4,0.5 0.5,0.5 0.5,0.5 0.6,0.5 0.804,0.5 0.818,1.001 1,1 "
       ),
     },
-    "<0.1"
+    0
   );
 
 let frase4in = gsap
@@ -475,21 +478,21 @@ let frase4in = gsap
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt2_7",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt2_6",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#page4",
@@ -580,28 +583,28 @@ let page4in = gsap
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt3_2",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt3_3",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt3_4",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   );
 
 let fourthpagepalloz = gsap
@@ -845,42 +848,42 @@ let frasegoogle = gsap
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt4_2",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt4_3",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt4_4",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt4_5",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt4_6",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   );
 
 let frase6 = gsap
@@ -928,35 +931,35 @@ let frase6 = gsap
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt5_2",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt5_3",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt5_4",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt5_5",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   );
 
 let frase7 = gsap
@@ -976,21 +979,21 @@ let frase7 = gsap
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt6_2",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   )
   .from(
     "#atxt6_3",
     {
       top: "0vh",
     },
-    "<0.1"
+    0
   );
 
 let pallinoultimo = gsap.timeline({

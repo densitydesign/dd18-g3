@@ -655,8 +655,8 @@ body {
 
 #palloz {
   position: relative;
-  width: 30vw;
-  height: 30vw;
+  width: 20vw;
+  height: 20vw;
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 30vw;
@@ -665,8 +665,8 @@ body {
 
 #palloz1 {
   position: relative;
-  width: 30vw;
-  height: 30vw;
+  width: 20vw;
+  height: 20vw;
   background-image: url(Assets/Icons/phase1.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -674,9 +674,9 @@ body {
 
 #palloz2 {
   position: absolute;
-  top: -30vw;
-  width: 30vw;
-  height: 30vw;
+  top: -20vw;
+  width: 20vw;
+  height: 20vw;
   background-image: url(Assets/Icons/phase2.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -684,9 +684,9 @@ body {
 
 #palloz3 {
   position: absolute;
-  top: -30vw;
-  width: 30vw;
-  height: 30vw;
+  top: -20vw;
+  width: 20vw;
+  height: 20vw;
   background-image: url(Assets/Icons/phase3.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -694,9 +694,9 @@ body {
 
 #palloz4 {
   position: absolute;
-  top: -30vw;
-  width: 30vw;
-  height: 30vw;
+  top: -20vw;
+  width: 20vw;
+  height: 20vw;
   background-image: url(Assets/Icons/phase4.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -704,9 +704,9 @@ body {
 
 #palloz5 {
   position: absolute;
-  top: -30vw;
-  width: 30vw;
-  height: 30vw;
+  top: -20vw;
+  width: 20vw;
+  height: 20vw;
   background-image: url(Assets/Icons/phase5.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -714,9 +714,9 @@ body {
 
 #palloz6 {
   position: absolute;
-  top: -40vw;
-  width: 30vw;
-  height: 30vw;
+  top: -20vw;
+  width: 20vw;
+  height: 20vw;
   background-image: url(Assets/Icons/phase6.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -998,13 +998,13 @@ body {
 /* -- ---- -- ---- -- ---- -- TRIGGERS -- ---- -- ---- -- ---- -- */
 
 #tshowbar {
-  top: 0vh;
-  height: 100vh;
+  top: 20vh;
+  height: 80vh;
 }
 
 #tsecondpage {
-  top: 10vh;
-  height: 40vh;
+  top: 0vh;
+  height: 50vh;
 }
 
 #tthirddpagedisp {
