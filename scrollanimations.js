@@ -630,6 +630,27 @@ let fourthpagepalloz = gsap
     0
   );
 
+let palloz1 = gsap
+  .timeline({
+    scrollTrigger: {
+      scroller: "#container",
+      trigger: "#tfourthpagep1",
+      markers: false,
+      start: "top bottom",
+      end: "bottom bottom",
+      toggleActions: "restart none reverse none",
+      scrub: true,
+    },
+  })
+  .from(
+    "#palloz1",
+    {
+      top: "20vw",
+      ease: "none",
+    },
+    0
+  );
+
 let palloz2 = gsap
   .timeline({
     scrollTrigger: {
@@ -645,7 +666,7 @@ let palloz2 = gsap
   .from(
     "#palloz2",
     {
-      top: "0vh",
+      top: "20vw",
       ease: "none",
     },
     0
@@ -666,7 +687,7 @@ let palloz3 = gsap
   .from(
     "#palloz3",
     {
-      top: "0vh",
+      top: "20vw",
       ease: "none",
     },
     0
@@ -687,7 +708,7 @@ let palloz4 = gsap
   .from(
     "#palloz4",
     {
-      top: "0vh",
+      top: "20vw",
       ease: "none",
     },
     0
@@ -708,7 +729,7 @@ let palloz5 = gsap
   .from(
     "#palloz5",
     {
-      top: "0vh",
+      top: "20vw",
       ease: "none",
     },
     0
@@ -729,7 +750,7 @@ let palloz6 = gsap
   .from(
     "#palloz6",
     {
-      top: "0vh",
+      top: "0vw",
       ease: "none",
     },
     0
