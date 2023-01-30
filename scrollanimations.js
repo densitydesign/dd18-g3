@@ -329,6 +329,27 @@ let thirdpage = gsap
       end: "bottom bottom",
       toggleActions: "restart none reverse none",
       scrub: true,
+    },
+  })
+  .from(
+    "#page3",
+    {
+      top: "0vh",
+      ease: "none",
+    },
+    0
+  );
+
+let frase1out = gsap
+  .timeline({
+    scrollTrigger: {
+      scroller: "#container",
+      trigger: "#tthirddpagef1out",
+      markers: false,
+      start: "top bottom",
+      end: "bottom bottom",
+      toggleActions: "restart none reverse none",
+      scrub: true,
       onEnterBack: () => {
         var element = document.getElementById("pall3");
         element.classList.add("paginacorrente");
@@ -357,27 +378,6 @@ let thirdpage = gsap
         var element = document.getElementById("pall3");
         element.classList.add("altrepagine");
       },
-    },
-  })
-  .from(
-    "#page3",
-    {
-      top: "0vh",
-      ease: "none",
-    },
-    0
-  );
-
-let frase1out = gsap
-  .timeline({
-    scrollTrigger: {
-      scroller: "#container",
-      trigger: "#tthirddpagef1out",
-      markers: false,
-      start: "top bottom",
-      end: "bottom bottom",
-      toggleActions: "restart none reverse none",
-      scrub: true,
     },
   })
   .from(
