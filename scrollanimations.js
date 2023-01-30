@@ -3,7 +3,7 @@ let paginadiarrivo = 1;
 let easing = 0.05;
 let X;
 let y;
-let diam = 10;
+let diam = 0.1;
 let freccina;
 let velocity;
 let angle;
